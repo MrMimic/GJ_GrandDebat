@@ -23,8 +23,8 @@ GJ
 Les fichiers "EVENTS" et "CR-RIL" sont de nature différentes, ils seront traités plus tard.
 
 
-## Usage
+## Usage
 
 Premier lancement:
 
-  python3 main.py --download_data --re_analyse_data --draw_maps
+        python3 main.py --download_data --re_analyse_data --draw_maps
