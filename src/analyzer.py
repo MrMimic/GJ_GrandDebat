@@ -16,10 +16,6 @@ class ANALYZER():
     def __init__(self):
         """"""
         self.data_dir = 'data'
-        self.etat = 'ORGANISATION_DE_LETAT_ET_DES_SERVICES_PUBLICS'
-        self.ecologie = 'LA_TRANSITION_ECOLOGIQUE'
-        self.fiscalite = 'LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES'
-        self.democratie = 'DEMOCRATIE_ET_CITOYENNETE'
 
     def write_json_file_from_dict(self, dictionnary, file_name):
         """"""
@@ -52,12 +48,3 @@ class ANALYZER():
             except KeyError as error:
                 seen_departments[department] = count
         self.write_json_file_from_dict(dictionnary=seen_departments, file_name=os.path.join(self.data_dir, theme, 'departments.json'))
-
-        # CHoper correspondance ID/nom departement
-        # Faire carte densité
-
-
-if __name__ == '__main__':
-
-    A = ANALYZER()
-    A.analyse_participants_zip_codes(A.etat)

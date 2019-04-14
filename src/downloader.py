@@ -5,6 +5,7 @@ downloader.py
 This script will download locally all data released by the French gov.
 """
 
+import re
 import os
 import time
 import json
@@ -14,9 +15,11 @@ from bs4 import BeautifulSoup as BS
 
 
 class DOWNLOADER():
+    
     def __init__(self):
         """"""
-        self.base_url = "https://granddebat.fr/pages/donnees-ouvertes"
+        self.base_url = 'https://granddebat.fr/pages/donnees-ouvertes'
+        self.data_dir = 'data'
 
     def get_distant_data(self):
         """"""
@@ -28,10 +31,13 @@ class DOWNLOADER():
             if link.get('href').endswith('csv'):
                 file_name = link.get('href').split('net/')[1].replace('/', '_')
                 file_link = link.get('href')
+                folder_name = re.sub('[0-9]{4}-[0-9]{2}-[0-9]{2}_', '', file_name.replace('.csv', ''))
+
                 # Download the file content and write it locally
                 if file_name not in os.listdir('data'):
                     tic = time.time()
-                    with open('data/{}'.format(file_name), 'w') as handler:
+
+                    with open(os.path.join(self.data_dir, folder_name, file_name), 'w') as handler:
                         try:
                             file_content = requests.get(file_link).text
                         except Exception as error:
@@ -43,10 +49,3 @@ class DOWNLOADER():
 
                     toc = time.time()
                     print('{} downloaded ({} secs).'.format(file_name, round(toc-tic, 2)))
-
-
-
-if __name__ == '__main__':
-
-    D = DOWNLOADER()
-    D.get_distant_data()
