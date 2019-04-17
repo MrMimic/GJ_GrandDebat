@@ -1,4 +1,39 @@
-# GJ_GrandDebat
+# Grand débat (Gilets jaunes) : Analyse des réponses
+
+## Contexte
+
+Blabla
+
+## Quatre grands thèmes
+
+### ORGANISATION DE L'ETAT ET DES SERVICES PUBLICS
+
+#### Présentation du thème
+
+Blabla
+
+#### Questions
+
+###### Que pensez-vous de l'organisation de l'Etat et des administrations en France ? De quelle manière cette organisation devrait-elle évoluer ?
+
+Nombre de réponses à la question : 277 561
+
+Taille moyenne des réponses (caractères) : 374.70777234553844
+
+Taille moyenne des réponses (nombre de mots) : 60.014530139320726
+
+
+
+
+
+
+
+
+
+
+########################################
+
+# TRASH
 
 ## DEPENDANCIES
 
@@ -43,6 +78,6 @@ Premier lancement:
 
         python3 main.py --download_data --re_analyse_data --draw_maps
 
-# Todo
+# Todo
 
 Les maps en nombre par habitant / total
