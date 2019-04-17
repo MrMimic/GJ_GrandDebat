@@ -8,9 +8,11 @@ This script will batch analyse downloaded data.
 import re
 import os
 import json
+import time
 import itertools
 import numpy as np
 import pandas as pd
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
 
 class REPORT():
@@ -29,7 +31,12 @@ class ANALYZER():
 
     def __init__(self):
         """"""
+
         self.data_dir = 'data'
+
+        # Get stopwords (see README for source)
+        with open(os.path.join(self.data_dir, 'stopwords', 'stopwords-fr.txt'), 'r') as file_handler:
+            self.stopwords = [word.strip('\n') for word in file_handler.readlines()]
 
     def write_json_file_from_dict(self, dictionnary, file_name):
         """"""
@@ -92,15 +99,40 @@ class ANALYZER():
         report.average_chars_length = np.mean([len(answer) for answer in total_answers])
         report.average_tokens_length = np.mean([len(re.findall('\w+', answer)) for answer in total_answers])
 
+        # First, count words for IDF later
+        count_vectorizer = CountVectorizer(
+            max_df=0.85,
+            stop_words=self.stopwords,
+            strip_accents=None,
+            lowercase=True)
+        counted_data = count_vectorizer.fit_transform(total_answers)
+        word_features = count_vectorizer.get_feature_names()
 
-        # Now, these question will be analysed by TF-IDF and ambedded as vector to be used as machine learning input
-        from sklearn.feature_extraction.text import TfidfVectorizer
-        import time
-        t = time.time()
-        vectorizer = TfidfVectorizer()
-        vectorized_data = vectorizer.fit_transform(total_answers)
-        print(vectorized_data)
-        print(time.time()-t)
+        # Now TF-IDF for each answer
+        tfidf_vectorizer = TfidfTransformer(
+            smooth_idf=True,
+            use_idf=True)
+        vectorized_data = tfidf_vectorizer.fit_transform(counted_data)
+
+        # I'll use TfidfVectorizer next for easiest parsing of the output sparse matrix
+        print()
+        print(total_answers[0])
+        print()
+
+        print(type(vectorized_data[0]))
+        print(vectorized_data[0])
+        print()
+
+        print(word_features[58780])
+        print(word_features[58561])
+        print(word_features[54161])
+        print()
+
+        for line in vectorized_data[0].todense():
+
+            print(line)
+
+
 
 
 

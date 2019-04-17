@@ -31,15 +31,26 @@ Taille moyenne des réponses (nombre de mots) : 60.014530139320726
 
 
 
-########################################
+**********************
 
 # TRASH
 
 ## DEPENDANCIES
 
+### LINUX PACKAGES
+
 apt-get install libproj-dev proj-data proj-bin
 
 apt-get install libgeos-dev
+
+### PYTHON PACKAGES
+
+Scikit learn
+
+### DATA
+
+Stopwords: https://github.com/stopwords-iso/stopwords-fr
+
 
 ## Contexte
 
