@@ -54,6 +54,7 @@ if __name__ == '__main__':
     for theme in [executor.etat, executor.ecologie, executor.fiscalite, executor.democratie]:
 
         if args.re_analyse_data is True:
+            print(theme)
             # ANALYZE THIS THEME
             executor.analyzer.analyse_participants_zip_codes(theme)
 
