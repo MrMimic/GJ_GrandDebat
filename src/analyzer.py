@@ -9,8 +9,20 @@ import re
 import os
 import json
 import itertools
+import numpy as np
 import pandas as pd
 
+
+class REPORT():
+    """
+    This class will handler reporting data for all question from this debat
+    """
+    def __init__(self):
+
+        # Stats about answers string themselves (average length, number, number of misspells ...)
+        self.number_of_answers = None
+        self.average_chars_length = None
+        self.average_tokens_length = None
 
 
 class ANALYZER():
@@ -58,6 +70,8 @@ class ANALYZER():
         However, they cannot be joined into one big csv due to the number of columns, differents for each
         """
 
+        report = REPORT()
+
         # First, we gonna read all CSV about a specific theme and then keep all answers about this question from all 4 files
         total_answers = list()
         for file_name in os.listdir(os.path.join(data_dir, theme_folder)):
@@ -71,9 +85,23 @@ class ANALYZER():
                     corrected_question = [header_title for header_title in csv_data.head() if question in header_title][0]
                     answers = list(csv_data[corrected_question].dropna())
                 total_answers.extend(answers[1:]) # We remove the first element because of header
+        report.number_of_answers = len(total_answers)
         print('Extracted {} answers from files (question: "{}")'.format(len(total_answers), question))
 
+        # Let's store some data for the report
+        report.average_chars_length = np.mean([len(answer) for answer in total_answers])
+        report.average_tokens_length = np.mean([len(re.findall('\w+', answer)) for answer in total_answers])
+
+
         # Now, these question will be analysed by TF-IDF and ambedded as vector to be used as machine learning input
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        import time
+        t = time.time()
+        vectorizer = TfidfVectorizer()
+        vectorized_data = vectorizer.fit_transform(total_answers)
+        print(vectorized_data)
+        print(time.time()-t)
+
 
 
 if __name__ == '__main__':
