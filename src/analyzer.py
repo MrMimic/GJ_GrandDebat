@@ -25,6 +25,7 @@ class REPORT():
         self.number_of_answers = None
         self.average_chars_length = None
         self.average_tokens_length = None
+        self.max_token_length = None
 
 
 class ANALYZER():
@@ -98,6 +99,7 @@ class ANALYZER():
         # Let's store some data for the report
         report.average_chars_length = np.mean([len(answer) for answer in total_answers])
         report.average_tokens_length = np.mean([len(re.findall('\w+', answer)) for answer in total_answers])
+        report.max_token_length = max([len(re.findall('\w+', answer)) for answer in total_answers])
 
         # First, count words for IDF later
         count_vectorizer = CountVectorizer(
@@ -114,26 +116,23 @@ class ANALYZER():
             use_idf=True)
         vectorized_data = tfidf_vectorizer.fit_transform(counted_data)
 
-        # I'll use TfidfVectorizer next for easiest parsing of the output sparse matrix
-        print()
-        print(total_answers[0])
-        print()
-
-        print(type(vectorized_data[0]))
-        print(vectorized_data[0])
-        print()
-
-        print(word_features[58780])
-        print(word_features[58561])
-        print(word_features[54161])
-        print()
-
-        for line in vectorized_data[0].todense():
-
-            print(line)
-
-
-
+        # Now, let's parse. Vectorized data are CRS matrix.
+        min_tfidf_score = 1.0
+        max_score_tfidf = 0.01
+        for answer, tfidf_data in zip(total_answers, vectorized_data):
+            words_indices = tfidf_data.indices
+            tfidf_scores = tfidf_data.data
+            try:
+                if max(tfidf_scores) > min_tfidf_score or min(tfidf_scores) < max_score_tfidf:
+                    print(answer)
+                    for w, s in zip(words_indices, tfidf_scores):
+                        if s > min_tfidf_score:
+                            print('\tMAX\t{}\t{}'.format(word_features[w], s))
+                        if s < max_score_tfidf:
+                            print('\tMIN\t{}\t{}'.format(word_features[w], s))
+                    print()
+            except ValueError:
+                continue
 
 
 if __name__ == '__main__':
