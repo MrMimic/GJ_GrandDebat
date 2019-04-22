@@ -133,7 +133,6 @@ class ANALYZER():
             strip_accents=None,
             lowercase=True)
         counted_data = count_vectorizer.fit_transform(total_answers)
-        word_features = count_vectorizer.get_feature_names()
 
         # Now TF-IDF for each answer
         tfidf_vectorizer = TfidfTransformer(
@@ -142,6 +141,7 @@ class ANALYZER():
         vectorized_data = tfidf_vectorizer.fit_transform(counted_data)
 
         # Extract TFIDF scores, counts, terms, and write that as CSV
+        word_features = count_vectorizer.get_feature_names()
         weights = np.asarray(vectorized_data.mean(axis=0)).ravel().tolist()
         counts = counted_data.sum(axis=0).tolist()[0]
         tfidf_full_data = pd.DataFrame({'term': word_features, 'weight': weights, 'counts': counts})

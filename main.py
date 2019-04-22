@@ -61,3 +61,5 @@ if __name__ == '__main__':
         # DRAW MAPS ON THIS THEME
         if args.draw_maps is True:
             executor.cartographier.draw_french_map(theme)
+
+        # HERE, FIND QUESTION AND ANALYSE SPECIFIC QUESTION OF EACH THEME
