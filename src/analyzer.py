@@ -9,6 +9,7 @@ import re
 import os
 import json
 import time
+import unidecode
 import itertools
 import numpy as np
 import pandas as pd
@@ -21,11 +22,20 @@ class REPORT():
     """
     def __init__(self):
 
+        # Data for the markdown report
+        self.debat_theme = None
+        self.studied_question = None
+
         # Stats about answers string themselves (average length, number, number of misspells ...)
         self.number_of_answers = None
         self.average_chars_length = None
         self.average_tokens_length = None
         self.max_token_length = None
+
+        # Stats coming from TF-IDF data
+        self.max_used_token = None
+        self.max_used_token_count = None
+        self.top_20_terms = None
 
 
 class ANALYZER():
@@ -78,7 +88,20 @@ class ANALYZER():
         However, they cannot be joined into one big csv due to the number of columns, differents for each
         """
 
+        # Create subdir in results/ and question-specific dir in this subdir
+        if theme_folder not in os.listdir('results'):
+            os.mkdir(os.path.join('results', theme_folder))
+        # Question-specific folder
+        question_folder = unidecode.unidecode(question[:70].lower().replace(' ', '_').replace("'", ''))
+        if question_folder not in os.listdir(os.path.join('results', theme_folder)):
+            os.mkdir(os.path.join('results', theme_folder, question_folder))
+        # Get path to record results
+        results_records_path = os.path.join('results', theme_folder, question_folder)
+
+        # Create report class which will be markdown-formatted
         report = REPORT()
+        report.debat_theme = theme_folder.replace('_', ' ')
+        report.studied_question = question
 
         # First, we gonna read all CSV about a specific theme and then keep all answers about this question from all 4 files
         total_answers = list()
@@ -101,6 +124,8 @@ class ANALYZER():
         report.average_tokens_length = np.mean([len(re.findall('\w+', answer)) for answer in total_answers])
         report.max_token_length = max([len(re.findall('\w+', answer)) for answer in total_answers])
 
+        tic = time.time()
+
         # First, count words for IDF later
         count_vectorizer = CountVectorizer(
             max_df=0.85,
@@ -116,23 +141,26 @@ class ANALYZER():
             use_idf=True)
         vectorized_data = tfidf_vectorizer.fit_transform(counted_data)
 
-        # Now, let's parse. Vectorized data are CRS matrix.
-        min_tfidf_score = 1.0
-        max_score_tfidf = 0.01
-        for answer, tfidf_data in zip(total_answers, vectorized_data):
-            words_indices = tfidf_data.indices
-            tfidf_scores = tfidf_data.data
-            try:
-                if max(tfidf_scores) > min_tfidf_score or min(tfidf_scores) < max_score_tfidf:
-                    print(answer)
-                    for w, s in zip(words_indices, tfidf_scores):
-                        if s > min_tfidf_score:
-                            print('\tMAX\t{}\t{}'.format(word_features[w], s))
-                        if s < max_score_tfidf:
-                            print('\tMIN\t{}\t{}'.format(word_features[w], s))
-                    print()
-            except ValueError:
-                continue
+        # Extract TFIDF scores, counts, terms, and write that as CSV
+        weights = np.asarray(vectorized_data.mean(axis=0)).ravel().tolist()
+        counts = counted_data.sum(axis=0).tolist()[0]
+        tfidf_full_data = pd.DataFrame({'term': word_features, 'weight': weights, 'counts': counts})
+        pd.DataFrame(tfidf_full_data.sort_values(by='weight', ascending=False)).to_csv(os.path.join(results_records_path, 'word_counts_scores_sorted.csv'))
+
+        # To parse data doc per doc, uncomment below
+        #for answer, tfidf_data in zip(total_answers, vectorized_data):
+        #    words_indices = tfidf_data.indices
+        #    tfidf_scores = tfidf_data.data
+
+        toc = time.time()
+        print('TFIDF processed ({} sec)'.format(toc-tic))
+
+        # Add some stuff in the markdown report
+        report.max_used_token = tfidf_full_data.loc[tfidf_full_data['counts'].idxmax()]['term']
+        report.max_used_token_count = tfidf_full_data.loc[tfidf_full_data['counts'].idxmax()]['counts']
+        report.top_20_terms = tfidf_full_data.sort_values(by='weight', ascending=False)['term'].head(20).tolist()
+
+        # NOW LOOK AT STEMMED DATA ON LIKE 1000 TERMS AND EXTRACT MOST USED ROOTS
 
 
 if __name__ == '__main__':
