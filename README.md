@@ -43,3 +43,7 @@ Celà ne facilite pas le travail de ré-analyse des données publiques. Une norm
 ******************
 
 # Rapport automatique
+## ORGANISATION DE LETAT ET DES SERVICES PUBLICS
+
+![ORGANISATION_DE_LETAT_ET_DES_SERVICES_PUBLICS](maps/ORGANISATION_DE_LETAT_ET_DES_SERVICES_PUBLICS.png)
+
