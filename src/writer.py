@@ -20,6 +20,11 @@ class MARKDOWN(object):
         return '**********\n'
 
 
+    def include_image(self, image_path, alt_text, file_name):
+        """"""
+        with open(file_name, 'a') as handler:
+            handler.write('![{}]({})\n\n'.format(alt_text, image_path))
+
     def title_lvl_1(self, string):
         """"""
         return '# {}\n'.format(string)

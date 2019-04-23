@@ -1,4 +1,9 @@
 
+## HARDWARE
+
+PC de base, i7, 8Gb RAM, Ubuntu 18.10
+
+XX Go de data a télécharger
 
 ## DEPENDANCIES
 

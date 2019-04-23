@@ -61,26 +61,3 @@ class REPORT():
                 writer.write_title_lvl_4(string='Détail de la réponse fermées', file_name=report_file)
                 writer.write_string(string='Pourcentage de "oui" : {}%'.format(self.percentage_yes), file_name=report_file)
                 writer.write_string(string='Pourcentage de "Non" : {}%'.format(self.percentage_no), file_name=report_file)
-
-
-
-        # Just print stdout
-        print(writer.title_lvl_4('Statistiques générales sur les réponses :'))
-        print('Nombre de réponses : {}'.format(self.number_of_answers))
-
-        if self.question_type == 'open':
-
-            print('Taille moyenne des réponses (caractères) : {}'.format(self.average_chars_length))
-            print('Taille moyenne des réponses (mots) : {}'.format(self.average_tokens_length))
-            print('Taille maximum des réponses (mots) : {}'.format(self.max_token_length))
-
-            print(writer.title_lvl_4('Thèmes majoritaires dans la question ouverte'))
-            print('Mots les plus importants dans les réponses :')
-            print(writer.itemize_list(self.top_20_terms))
-            print('Racines de mots les plus importants dans les réponses :')
-            print(writer.itemize_list(self.top_20_stems))
-
-        else:
-            print(writer.title_lvl_4('Détail de la réponse fermées'))
-            print('Pourcentage de "oui" : {}%'.format(self.percentage_yes))
-            print('Pourcentage de "Non" : {}%'.format(self.percentage_no))

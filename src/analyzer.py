@@ -170,7 +170,6 @@ class ANALYZER():
             report.percentage_yes = round((counted_answers['Oui'] * 100) / report.number_of_answers, 2)
             report.percentage_no = round((counted_answers['Non'] * 100) / report.number_of_answers, 2)
 
-
         report.write_to_file(report_file=self.report_file)
         # NOW LOOK AT STEM TYPE TO CHECK FOR MOST USED VERBS, ADJECTIVES, ETC
         # THE TFIDF SHOULD BE COMPUTER IF MORE THAN 2 DIFFERENT ANSWERS OTHERWISE, PERCENTAGE

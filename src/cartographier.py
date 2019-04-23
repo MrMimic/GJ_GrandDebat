@@ -144,3 +144,5 @@ class CARTOGRAPHIER(object):
         # Save figure
         plt.title(theme.replace('_', ' '))
         plt.savefig(os.path.join('maps', '{}.png'.format(theme)))
+
+        return os.path.join('maps', '{}.png'.format(theme))

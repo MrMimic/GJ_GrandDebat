@@ -36,16 +36,11 @@ if __name__ == '__main__':
         '--download_data',
         action='store_true',
         help='Download base data on data.gouv.fr.')
-    parser.add_argument(  # Full update of MELoDiST models.
-        '-r',
-        '--re_analyse_data',
+    parser.add_argument(  # Analyse downloaded data
+        '-a',
+        '--analyse_data',
         action='store_true',
-        help='Re-analyse raw data before plots, maps, etc.')
-    parser.add_argument(  # Draw differents maps after raw data has been analyzed.
-        '-m',
-        '--draw_maps',
-        action='store_true',
-        help='Use analyzed data to draw static maps.')
+        help='Analyse raw data for plots, maps, etc.')
     args = parser.parse_args()
 
     # MAIN EXECUTOR
@@ -59,21 +54,22 @@ if __name__ == '__main__':
 
         executor.writer.write_title_lvl_2(string=theme.replace('_', ' '), file_name=executor.report_file)
 
-        if args.re_analyse_data is True:
+        if args.analyse_data is True:
 
             # Draw a map based on participants zip codes
             #######executor.analyzer.analyse_participants_zip_codes(theme)
+            image_path = executor.cartographier.draw_french_map(theme=theme)
+            executor.writer.write_title_lvl_3(string='Carte de participation', file_name=executor.report_file)
+            executor.writer.include_image(image_path=image_path, alt_text=theme, file_name=executor.report_file)
 
             # Now, let's get questions
             questions = executor.analyzer.extract_questions_from_theme(theme)
             # And analyse them one by one
             for indice, question in enumerate(questions):
+                print('{} : {}'.format(indice, question))
                 indice += 1
                 executor.writer.write_title_lvl_3(string='{} - {}'.format(indice, question), file_name=executor.report_file)
                 executor.analyzer.analyse_specific_question(theme_folder=theme, question=question, indice=indice)
 
-        # DRAW MAPS ON THIS THEME
-        if args.draw_maps is True:
-            executor.cartographier.draw_french_map(theme)
 
         # HERE, FIND QUESTION AND ANALYSE SPECIFIC QUESTION OF EACH THEME
