@@ -17,6 +17,7 @@ import itertools
 import numpy as np
 import pandas as pd
 from collections import Counter
+from gensim.models import Word2Vec
 from nltk.stem.snowball import FrenchStemmer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
@@ -69,29 +70,25 @@ class ANALYZER():
                 seen_departments[department] = count
         self.write_json_file_from_dict(dictionnary=seen_departments, file_name=os.path.join(self.data_dir, theme, 'departments.json'))
 
-    def analyse_specific_question(self, theme_folder, question, indice):
-        """
-        The input will be a folder about a specific subject
-        We should parse all files from this folder whil all have the same shape (and same questions)
-        However, they cannot be joined into one big csv due to the number of columns, differents for each
-        """
+    def extract_questions_from_theme(self, theme):
+        """Extracts question from a specific theme header"""
 
-        data_dir = self.data_dir
+        theme_questions = list()
 
-        # Create subdir in results/ and question-specific dir in this subdir
-        if theme_folder not in os.listdir('results'):
-            os.mkdir(os.path.join('results', theme_folder))
-        # Question-specific folder
-        question_folder = unidecode.unidecode(question[:70].lower().replace(' ', '_').replace("'", ''))
-        if question_folder not in os.listdir(os.path.join('results', theme_folder)):
-            os.mkdir(os.path.join('results', theme_folder, question_folder))
-        # Get path to record results
-        results_records_path = os.path.join('results', theme_folder, question_folder)
+        # Parse each file from a specific theme
+        for file_name in os.listdir(os.path.join(self.data_dir, theme)):
+            if file_name.endswith('csv') and theme in file_name:
+                # Extract data and headers
+                csv_data = pd.read_csv(os.path.join(self.data_dir, theme, file_name), low_memory=False, encoding = 'utf8')
+                questions = [header if ' - ' not in header else header.split(' - ')[1] for header in csv_data.columns.values if len(header) > 50]
+                # ANd keep possible questions
+                for question in questions:
+                    theme_questions.append(question)
 
-        # Create report class which will be markdown-formatted
-        report = REPORT()
-        report.debat_theme = theme_folder.replace('_', ' ')
-        report.studied_question = '{} - {}'.format(indice, question)
+        return sorted(list(set(theme_questions)))
+
+    def get_answers_to_question(self, data_dir, theme_folder, question):
+        """"""
 
         # First, we gonna read all CSV about a specific theme and then keep all answers about this question from all 4 files
         total_answers = list()
@@ -106,6 +103,35 @@ class ANALYZER():
                     corrected_question = [header_title for header_title in csv_data.head() if question in header_title][0]
                     answers = list(csv_data[corrected_question].dropna())
                 total_answers.extend(answers[1:]) # We remove the first element because of header
+
+        return total_answers
+
+    def analyse_specific_question(self, theme_folder, question, indice):
+        """
+        The input will be a folder about a specific subject
+        We should parse all files from this folder whil all have the same shape (and same questions)
+        However, they cannot be joined into one big csv due to the number of columns, differents for each
+        """
+
+        data_dir = self.data_dir
+
+        # Create subdir in results/ and question-specific dir in this subdir
+        if theme_folder not in os.listdir('results'):
+            os.mkdir(os.path.join('results', theme_folder))
+        # Question-specific folder
+        question_folder = unidecode.unidecode(question[:70].lower().replace(' ', '_').replace("'", '').replace(',', '').replace('/', ''))
+        if question_folder not in os.listdir(os.path.join('results', theme_folder)):
+            os.mkdir(os.path.join('results', theme_folder, question_folder))
+        # Get path to record results
+        results_records_path = os.path.join('results', theme_folder, question_folder)
+
+        # Create report class which will be markdown-formatted
+        report = REPORT()
+        report.debat_theme = theme_folder.replace('_', ' ')
+        report.studied_question = '{} - {}'.format(indice, question)
+
+        # Get answers for this specific question
+        total_answers = self.get_answers_to_question(data_dir=self.data_dir, theme_folder=theme_folder, question=question)
         report.number_of_answers = len(total_answers)
 
         # Different treatment for openned or closed questions
@@ -171,66 +197,28 @@ class ANALYZER():
             report.percentage_no = round((counted_answers['Non'] * 100) / report.number_of_answers, 2)
 
         report.write_to_file(report_file=self.report_file)
-        # NOW LOOK AT STEM TYPE TO CHECK FOR MOST USED VERBS, ADJECTIVES, ETC
-        # THE TFIDF SHOULD BE COMPUTER IF MORE THAN 2 DIFFERENT ANSWERS OTHERWISE, PERCENTAGE
 
-    def extract_questions_from_theme(self, theme):
-        """Extracts question from a specific theme header"""
+    def train_word_embedding(self, documents, theme_folder, question):
+        """
+        Train a word embedding by using W2V (each per question and one global)
+        """
 
-        theme_questions = list()
+        # Get data soring path to save word embedding model
+        question_folder = unidecode.unidecode(question[:70].lower().replace(' ', '_').replace("'", '').replace(',', '').replace('/', ''))
+        results_records_path = os.path.join('results', theme_folder, question_folder)
 
-        # Parse each file from a specific theme
-        for file_name in os.listdir(os.path.join(self.data_dir, theme)):
-            if file_name.endswith('csv') and theme in file_name:
-                # Extract data and headers
-                csv_data = pd.read_csv(os.path.join(self.data_dir, theme, file_name), low_memory=False, encoding = 'utf8')
-                questions = [header if ' - ' not in header else header.split(' - ')[1] for header in csv_data.columns.values if len(header) > 50]
-                # ANd keep possible questions
-                for question in questions:
-                    theme_questions.append(question)
+        # THIS STUFF HAS TO BE A PARALLEL FUNCTION
 
-        return sorted(list(set(theme_questions)))
+        # First, let's lower texts and remove stowords
+        documents = [[word for word in re.findall('\w+', document.lower()) if word not in self.stopwords and re.search('[a-z]', word)] for document in documents]
 
-
-
-
-if __name__ == '__main__':
-    A = ANALYZER()
-
-    etat = 'ORGANISATION_DE_LETAT_ET_DES_SERVICES_PUBLICS'
-    A.analyse_specific_question('data', etat, "Que pensez-vous de l'organisation de l'Etat et des administrations en France ? De quelle manière cette organisation devrait-elle évoluer ?")
-
-    """
-    Que pensez-vous de l'organisation de l'Etat et des administrations en France ? De quelle manière cette organisation devrait-elle évoluer ?
-    Selon vous, l'Etat doit-il aujourd'hui transférer de nouvelles missions aux collectivités territoriales ?
-    Si oui, lesquelles ?
-    Estimez-vous avoir accès aux services publics dont vous avez besoin ?
-    Si non, quels types de services publics vous manquent dans votre territoire et qu'il est nécessaire de renforcer ?
-    Quels nouveaux services ou quelles démarches souhaitez-vous voir développées sur Internet en priorité ?
-    Avez-vous déjà utilisé certaines de ces nouvelles formes de services publics ?
-    Si oui, en avez-vous été satisfait ?
-    Quelles améliorations préconiseriez-vous ?
-    Quand vous pensez à l'évolution des services publics au cours des dernières années, quels sont ceux qui ont évolué de manière positive ?
-    Quels sont les services publics qui doivent le plus évoluer selon vous ?
-    Connaissez-vous le "droit à l'erreur", c'est-à-dire le droit d'affirmer votre bonne foi lorsque vous faites un erreur dans vos déclarations ?
-    Si oui, avez-vous déjà utilisé ce droit à l'erreur ?
-    Si oui, à quelle occasion en avez-vous fait usage ?
-    Pouvez-vous identifier des règles que l'administration vous a déjà demandé d'appliquer et que vous avez jugées inutiles ou trop complexes ?
-    Faut-il donner plus d'autonomie aux fonctionnaires de terrain ?
-    Si oui, comment ?
-    Faut-il revoir le fonctionnement et la formation de l'administration ?
-    Comment l'Etat et les collectivités territoriales peuvent-ils s'améliorer pour mieux répondre aux défis de nos territoires les plus en difficulté ?
-    Si vous avez été amené à chercher une formation, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à scolariser votre enfant, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à chercher un emploi, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à préparer votre retraite, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à demander un remboursement de soins de santé, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à faire une demande d'aide pour une situation de handicap, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à créer une entreprise, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à recruter du personnel, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à former du personnel, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à rémunérer du personnel, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à mettre fin à votre activité, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Si vous avez été amené à recruter une personne portant un handicap, pouvez-vous indiquer les éléments de satisfaction et/ou les difficultés rencontrés en précisant, pour chaque point, l'administration concernée :
-    Y a-t-il d'autres points sur l'organisation de l'Etat et des services publics sur lesquels vous souhaiteriez vous exprimer ?
-    """
+        # Initialise and train a W2V model with Gensim's API
+        model = Word2Vec(
+            sentences=documents,
+            size=100,
+            window=5,
+            min_count=10,
+            workers=4,
+            iter=10)
+        # Then save it
+        model.save(os.path.join(results_records_path, 'words_embedding.mod'))

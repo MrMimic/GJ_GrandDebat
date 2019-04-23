@@ -10,6 +10,7 @@ class REPORT():
     """
     This class will handler reporting data for all question from this debat
     """
+
     def __init__(self):
 
         # Data for the markdown report

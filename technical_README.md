@@ -31,7 +31,11 @@ GJ
 - Téléchargement des données CSV: requests
 - Pré-parsing des fichiers: pandas
 - cartes géographiques: geopandas, matplotlib
-- interface interractive: falsk, dash
+- TFIDF pour termes importants: scikit-learn
+- Entrainement d'un word embedding par question: gensim word2vec
+- Récupération des termes associés aux verbes les plus retrouvés: TFIDF data + word embedding
+- Entrainement d'un word embedding global pour sortir des tendences (termes très associés)
+
 
 
 ## Exploration des données
