@@ -77,6 +77,6 @@ if __name__ == '__main__':
                 # We don't need WE for close questions
                 if len(list(set(total_answers))) > 2:
                     executor.analyzer.train_word_embedding(theme_folder=theme, question=question, documents=total_answers)
-                    exit(0)
+
 
         # Then, train a global D2V to see if 4 cluster are found
