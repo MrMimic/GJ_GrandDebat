@@ -36,6 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--draw_maps', action='store_true', help='Draw maps for each theme')
     parser.add_argument('-a', '--analyse_data_tfidf', action='store_true', help='Analyse raw data for plots, maps, etc.')
     parser.add_argument('-t', '--train_we', action='store_true', help='Train word embeddings specifics to each question.')
+    parser.add_argument('-q', '--query_we', action='store_true', help='Query words embeddings for a specific word.')
     args = parser.parse_args()
 
     # Main executor
@@ -44,6 +45,13 @@ if __name__ == '__main__':
     # Download raw data from data.gouv.fr
     if args.download_data is True:
         executor.downloader.get_distant_data()
+
+
+    if args.query_we is True:
+        # Load every WE models and query them with input word
+        executor.analyzer.query_word_embeddings(themes=[executor.etat, executor.ecologie, executor.fiscalite, executor.democratie])
+
+    exit(0)
 
     for theme in [executor.etat, executor.ecologie, executor.fiscalite, executor.democratie]:
 

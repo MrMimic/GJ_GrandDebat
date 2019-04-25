@@ -11,11 +11,13 @@ import re
 import os
 import sys
 import json
+import tqdm
 import time
 import unidecode
 import itertools
 import numpy as np
 import pandas as pd
+from progressbar import *
 from collections import Counter
 from gensim.models import Word2Vec
 from nltk.stem.snowball import FrenchStemmer
@@ -32,6 +34,9 @@ class ANALYZER():
         """"""
 
         self.data_dir = 'data'
+        self.result_dir = 'results'
+        self.temp_file = 'tmp/tmp.dat'
+
         self.report_file = report_file
 
         # Get stopwords (see README for source)
@@ -74,12 +79,11 @@ class ANALYZER():
         """Extracts question from a specific theme header"""
 
         theme_questions = list()
-
         # Parse each file from a specific theme
         for file_name in os.listdir(os.path.join(self.data_dir, theme)):
             if file_name.endswith('csv') and theme in file_name:
                 # Extract data and headers
-                csv_data = pd.read_csv(os.path.join(self.data_dir, theme, file_name), low_memory=False, encoding = 'utf8')
+                csv_data = pd.read_csv(os.path.join(self.data_dir, theme, file_name), low_memory=False, encoding = 'utf8', nrows=1)
                 questions = [header if ' - ' not in header else header.split(' - ')[1] for header in csv_data.columns.values if len(header) > 50]
                 # ANd keep possible questions
                 for question in questions:
@@ -222,3 +226,64 @@ class ANALYZER():
             iter=10)
         # Then save it
         model.save(os.path.join(results_records_path, 'words_embedding.mod'))
+
+    def query_word_embeddings(self, themes):
+        """
+        Take input word and query all trained embeddings for closer terms
+        """
+
+        # Get total question for progressbar
+        toptal_possible_questions = np.sum([len(self.extract_questions_from_theme(theme)) for theme in themes])
+
+        while True:
+            try:
+                # Get input word
+                input_word = input('Enter: ')
+
+                top_associated_words = dict()
+
+                # Create progressbar
+                widgets = ['{}: '.format(input_word), Percentage(), ' ', Bar(marker='-',left='[',right=']')]
+                pbar = ProgressBar(widgets=widgets, maxval=toptal_possible_questions)
+                i = 0
+                pbar.start()
+
+                # For each theme, extract related questions
+                for theme in themes:
+                    questions = self.extract_questions_from_theme(theme)
+                    # And for each question
+                    for question in questions:
+                        question_folder = unidecode.unidecode(question[:70].lower().replace(' ', '_').replace("'", '').replace(',', '').replace('/', ''))
+                        studied_path = os.path.join(self.result_dir, theme, question_folder)
+                        if 'words_embedding.mod' in os.listdir(studied_path):
+                            # Load word embedding
+                            model = Word2Vec.load(os.path.join(studied_path, 'words_embedding.mod'))
+                            try:
+                                # And query it
+                                top_close = model.most_similar(positive=input_word, topn=5)
+                            except KeyError:
+                                continue
+                            for word in top_close:
+                                # And add top term if cosine distance is closer to 1
+                                try:
+                                    if word[1] > top_associated_words[word[0]][2]:
+                                        top_associated_words[word[0]] = [theme, question, word[1]]
+                                except KeyError:
+                                    top_associated_words[word[0]] = [theme, question, word[1]]
+                        i += 1
+                        pbar.update(i)
+
+                # PPRINT OUTPUT
+                ## NOW STATS
+                import pprint
+                pprint.pprint(sorted(top_associated_words.items(), key=lambda kv: kv[1][2]))
+                ## Get the most seen theme
+                ## Most seen question
+                ## ALl associated with the query
+                # Number of question / theme NOT SEEN
+
+            except KeyError:
+                print('Word [{}] not in your model'.format(word))
+                continue
+            except KeyboardInterrupt:
+                exit(0)
