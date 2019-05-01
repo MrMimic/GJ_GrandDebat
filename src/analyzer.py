@@ -20,6 +20,7 @@ import pandas as pd
 from progressbar import *
 from collections import Counter
 from gensim.models import Word2Vec
+from matplotlib import pyplot as plt
 from nltk.stem.snowball import FrenchStemmer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
@@ -205,6 +206,7 @@ class ANALYZER():
     def train_word_embedding(self, documents, theme_folder, question):
         """
         Train a word embedding by using W2V (each per question and one global)
+        A pre-trained embedding is loaded and then updated to update weights according to this specific dataset
         """
 
         # Get data soring path to save word embedding model
@@ -219,11 +221,11 @@ class ANALYZER():
         # Initialise and train a W2V model with Gensim's API
         model = Word2Vec(
             sentences=documents,
-            size=100,
+            size=300,
             window=5,
             min_count=10,
             workers=4,
-            iter=10)
+            iter=20)
         # Then save it
         model.save(os.path.join(results_records_path, 'words_embedding.mod'))
 
@@ -232,13 +234,17 @@ class ANALYZER():
         Take input word and query all trained embeddings for closer terms
         """
 
+        # Let's get a global french model to compare results
+        global_french_model = Word2Vec.load('/home/emeric/Downloads/fr/fr.bin')
+
         # Get total question for progressbar
         toptal_possible_questions = np.sum([len(self.extract_questions_from_theme(theme)) for theme in themes])
 
-        while True:
+        # while True:
+        for input_word in ['président', 'fortune', 'inégalités', 'députés', 'fonctionnaires', 'médical', 'hôpitaux']:
             try:
                 # Get input word
-                input_word = input('Enter: ')
+                # input_word = input('Enter: ')
 
                 top_associated_words = dict()
 
@@ -260,7 +266,7 @@ class ANALYZER():
                             model = Word2Vec.load(os.path.join(studied_path, 'words_embedding.mod'))
                             try:
                                 # And query it
-                                top_close = model.most_similar(positive=input_word, topn=5)
+                                top_close = model.most_similar(positive=input_word, topn=10)
                             except KeyError:
                                 continue
                             for word in top_close:
@@ -273,17 +279,72 @@ class ANALYZER():
                         i += 1
                         pbar.update(i)
 
-                # PPRINT OUTPUT
-                ## NOW STATS
-                import pprint
-                pprint.pprint(sorted(top_associated_words.items(), key=lambda kv: kv[1][2]))
-                ## Get the most seen theme
-                ## Most seen question
-                ## ALl associated with the query
-                # Number of question / theme NOT SEEN
+                # And get usual associated words
+                try:
+                    global_top_close = global_french_model.most_similar(positive=input_word, topn=1000)
+                    global_top_close = {x[0]: x[1] for x in global_top_close}
+                except KeyError:
+                    print('Word [{}] not in global model'.format(input_word))
+                    continue
+
+                #Now, let's sort words specifis to the Grand Debat
+                top_associated_words = sorted(top_associated_words.items(), key=lambda kv: kv[1][2], reverse=True)
+                top_associated_words = {x[0]: x[1] for x in top_associated_words}
+
+                # And built the difference
+                lexical_differences = dict()
+                for word, data in top_associated_words.items():
+
+                    if word in global_top_close.keys():
+
+                        gj_score = data[2]
+                        global_score = global_top_close[word]
+                        # print(gj_score)
+                        # print(global_score)
+
+                        lexical_differences[word] = gj_score - global_score
+
+
+                lexical_differences = sorted(lexical_differences.items(), key=lambda kv: kv[1], reverse=True)
+
+                increased_score = lexical_differences[0:10]
+                decreased_score = lexical_differences[-10:]
+
+                # And plot
+
+                heights = [x[1] for x in increased_score + decreased_score]
+                labels = [x[0] for x in increased_score + decreased_score]
+                positions = np.arange(len(heights))
+                colors = ['green' if h > 0 else 'red' for h in heights]
+                # ['green'] * len(increased_score) + ['red'] * len(decreased_score)
+
+                my_dpi = 250
+                plt.figure(figsize=(1600/my_dpi, 1200/my_dpi), dpi=my_dpi)
+                plt.bar(positions, heights, color=colors)
+
+                # Create names on the x-axis
+                plt.xticks(positions, labels, rotation=45)
+
+                ax = plt.gca()
+                ax.tick_params(axis = 'both', which = 'major', labelsize = 8)
+                ax.tick_params(axis = 'both', which = 'minor', labelsize = 8)
+
+                plt.title(input_word, fontsize=16)
+
+                plt.tight_layout()
+
+
+
+                # Show graphic
+                plt.savefig(os.path.join('words', '{}.png'.format(input_word)))
+
+                plt.close()
+                print()
+
+
 
             except KeyError:
-                print('Word [{}] not in your model'.format(word))
+                print('Word [{}] not in your model'.format(input_word))
                 continue
             except KeyboardInterrupt:
                 exit(0)

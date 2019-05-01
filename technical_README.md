@@ -51,6 +51,10 @@ Premier lancement:
 
         python3 main.py --download_data --re_analyse_data --draw_maps
 
+# Pretrained embeddings
+
+https://github.com/Kyubyong/wordvectors
+
 # Todo
 
 Les maps en nombre par habitant / total

@@ -51,8 +51,6 @@ if __name__ == '__main__':
         # Load every WE models and query them with input word
         executor.analyzer.query_word_embeddings(themes=[executor.etat, executor.ecologie, executor.fiscalite, executor.democratie])
 
-    exit(0)
-
     for theme in [executor.etat, executor.ecologie, executor.fiscalite, executor.democratie]:
 
         # Write theme in report as section title
