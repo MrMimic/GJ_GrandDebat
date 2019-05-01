@@ -187,7 +187,6 @@ class ANALYZER():
             top_10_words = tfidf_full_data.sort_values(by='weight', ascending=False)['term'].head(10).tolist()
             top_10_scores = tfidf_full_data.sort_values(by='weight', ascending=False)['weight'].head(10).tolist()
 
-
             # Get graph of specific vs global for each word
             top_10_links = list()
             for word in top_10_words:
@@ -204,7 +203,6 @@ class ANALYZER():
 
             # Report is now containing score and link top graph analysis
             report.top_10_terms = list(zip(top_10_words, top_10_scores, top_10_links))
-
 
             # Now, let's stem the vocabulary and recount it
             stemmer = FrenchStemmer()
@@ -300,7 +298,6 @@ class ANALYZER():
                 i += 1
                 pbar.update(i)
 
-
             # And get usual associated words
             try:
                 global_top_close = global_french_model.most_similar(positive=input_word, topn=1000)
@@ -308,7 +305,7 @@ class ANALYZER():
             except KeyError:
                 print('Word [{}] not in global model\n'.format(input_word))
 
-            #Now, let's sort words specifis to the Grand Debat
+            # Now, let's sort words specifis to the Grand Debat
             top_associated_words = sorted(top_associated_words.items(), key=lambda kv: kv[1][2], reverse=True)
             top_associated_words = {x[0]: x[1] for x in top_associated_words}
 
@@ -333,12 +330,10 @@ class ANALYZER():
             decreased_score = lexical_differences[-10:]
 
             # And plot
-
             heights = [x[1] for x in increased_score + decreased_score]
             labels = [x[0] for x in increased_score + decreased_score]
             positions = np.arange(len(heights))
             colors = ['green' if h > 0 else 'red' for h in heights]
-            # ['green'] * len(increased_score) + ['red'] * len(decreased_score)
 
             my_dpi = 250
             plt.figure(figsize=(1600/my_dpi, 1200/my_dpi), dpi=my_dpi)
@@ -352,18 +347,15 @@ class ANALYZER():
             ax.tick_params(axis = 'both', which = 'minor', labelsize = 8)
 
             plt.title(input_word, fontsize=16)
-
             plt.tight_layout()
-
-
 
             # Show graphic
             plt.savefig(os.path.join('words', '{}_{}.png'.format(theme, input_word)))
-
             plt.close()
 
             return True
 
         except KeyError:
             print('Word [{}] not in your model'.format(input_word))
+
             return False
