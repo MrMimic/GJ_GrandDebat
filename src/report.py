@@ -54,11 +54,17 @@ class REPORT():
 
                 writer.write_title_lvl_4(string='Thèmes majoritaires dans la question ouverte :', file_name=report_file)
                 writer.write_string(string='Mots les plus importants dans les réponses :', file_name=report_file)
-                writer.write_itemize_list(list_to_itemize=self.top_20_terms, file_name=report_file)
+                # writer.write_itemize_list(list_to_itemize=self.top_20_terms, file_name=report_file)
+                writer.draw_table(header=['MOT', 'SCORE_TFIDF', 'GRAPHE'], data=self.top_20_terms, file_name=report_file)
+
+
+
                 writer.write_string(string='Racines de mots les plus importants dans les réponses :', file_name=report_file)
                 writer.write_itemize_list(list_to_itemize=self.top_20_stems, file_name=report_file)
 
             else:
+
+
                 writer.write_title_lvl_4(string='Détail de la réponse fermées', file_name=report_file)
                 writer.write_string(string='Pourcentage de "oui" : {}%'.format(self.percentage_yes), file_name=report_file)
                 writer.write_string(string='Pourcentage de "Non" : {}%'.format(self.percentage_no), file_name=report_file)

@@ -36,7 +36,6 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--draw_maps', action='store_true', help='Draw maps for each theme')
     parser.add_argument('-a', '--analyse_data_tfidf', action='store_true', help='Analyse raw data for plots, maps, etc.')
     parser.add_argument('-t', '--train_we', action='store_true', help='Train word embeddings specifics to each question.')
-    parser.add_argument('-q', '--query_we', action='store_true', help='Query words embeddings for a specific word.')
     args = parser.parse_args()
 
     # Main executor
@@ -46,11 +45,7 @@ if __name__ == '__main__':
     if args.download_data is True:
         executor.downloader.get_distant_data()
 
-
-    if args.query_we is True:
-        # Load every WE models and query them with input word
-        executor.analyzer.query_word_embeddings(themes=[executor.etat, executor.ecologie, executor.fiscalite, executor.democratie])
-
+    # For each major theme
     for theme in [executor.etat, executor.ecologie, executor.fiscalite, executor.democratie]:
 
         # Write theme in report as section title
@@ -72,11 +67,6 @@ if __name__ == '__main__':
             indice += 1
             print('\t{} : {}'.format(indice, question))
 
-            # Do TFIDF or frequencies (depending open or close question)
-            if args.analyse_data_tfidf is True:
-                executor.writer.write_title_lvl_3(string='{} - {}'.format(indice, question), file_name=executor.report_file)
-                executor.analyzer.analyse_specific_question(theme_folder=theme, question=question, indice=indice)
-
             # Train a word embedding specific to this question
             if args.train_we is True:
                 total_answers = executor.analyzer.get_answers_to_question(data_dir=executor.data_dir, theme_folder=theme, question=question)
@@ -84,5 +74,11 @@ if __name__ == '__main__':
                 if len(list(set(total_answers))) > 2:
                     executor.analyzer.train_word_embedding(theme_folder=theme, question=question, documents=total_answers)
 
+            # Do TFIDF or frequencies (depending open or close question)
+            if args.analyse_data_tfidf is True:
+                executor.writer.write_title_lvl_3(string='{} - {}'.format(indice, question), file_name=executor.report_file)
+                executor.analyzer.analyse_specific_question(theme_folder=theme, question=question, indice=indice)
+
+        exit(0)
 
         # Then, train a global D2V to see if 4 cluster are found

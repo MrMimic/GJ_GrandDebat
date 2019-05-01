@@ -61,3 +61,21 @@ class MARKDOWN(object):
         """"""
         with open(file_name, 'a') as handler:
             handler.write('- ' + '\n- '.join(list_to_itemize) + '\n\n')
+
+    def draw_table(self, header, data, file_name):
+        """"""
+
+        string = ''
+        header_string = '|{}|'.format(('|').join(header))
+        string = '{}\n{}'.format(string, header_string)
+        formatter_string = '|{}|'.format(('|').join(['--' for head in header]))
+        string = '{}\n{}'.format(string, formatter_string)
+
+        for line in data:
+            line_string = '|{}|'.format(('|').join([str(item) for item in line]))
+            string = '{}\n{}'.format(string, line_string)
+
+        string = '{}\n'.format(string)
+
+        with open(file_name, 'a') as handler:
+            handler.write(string)
