@@ -8,11 +8,9 @@ class MARKDOWN(object):
     def __init__(self):
         pass
 
-
     def write_blank_line(self, file_name):
         with open(file_name, 'a') as handler:
             handler.write('\n')
-
 
     def write_string(self, string, file_name):
         """"""

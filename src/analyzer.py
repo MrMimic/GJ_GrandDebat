@@ -194,12 +194,12 @@ class ANALYZER():
                 if '{}_{}.png'.format(theme_folder, word) not in os.listdir('words'):
                     response = self.query_word_embeddings(theme=theme_folder, manual=False, word=word)
                     if response is True:
-                        top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(word, theme_folder, word))
+                        top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(theme_folder, word, word))
                     else:
                         top_10_links.append('Non trouvé')
 
                 else:
-                    top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(word, theme_folder, word))
+                    top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(theme_folder, word, word))
             print()
 
             # Report is now containing score and link top graph analysis
