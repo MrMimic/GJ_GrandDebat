@@ -4300,8 +4300,79 @@ Nombre de réponses : 435996
 #### Statistiques générales sur les réponses
 
 Nombre de réponses : 435996
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
 
 
 |MOT|SCORE_TFIDF|GRAPHE|
 |--|--|--|
 |UN|1.0|HAHA|
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|UN|1.0|HAHA|
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|UN|1.0|HAHA|
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|oui|0.4129625042412908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/oui.png "oui")|
+|déplacements|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/déplacements.png "déplacements")|
+|quotidiens|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/quotidiens.png "quotidiens")|
+|utilise|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/utilise.png "utilise")|
+|voiture|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/voiture.png "voiture")|
