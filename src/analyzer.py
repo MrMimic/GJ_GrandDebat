@@ -197,6 +197,9 @@ class ANALYZER():
                         top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(word, theme_folder, word))
                     else:
                         top_10_links.append('Non trouvé')
+
+                else:
+                    top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(word, theme_folder, word))
             print()
 
             # Report is now containing score and link top graph analysis
@@ -308,7 +311,7 @@ class ANALYZER():
                 global_top_close = global_french_model.most_similar(positive=input_word, topn=1000)
                 global_top_close = {x[0]: x[1] for x in global_top_close}
             except KeyError:
-                print('Word [{}] not in global model'.format(input_word))
+                print('Word [{}] not in global model\n'.format(input_word))
 
             #Now, let's sort words specifis to the Grand Debat
             top_associated_words = sorted(top_associated_words.items(), key=lambda kv: kv[1][2], reverse=True)
