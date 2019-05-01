@@ -36,9 +36,16 @@ Plus embêtant, les en-têtes de tableaux sont différents pour les fichiers de 
 
 Celà ne facilite pas le travail de ré-analyse des données publiques. Une normalisation avant publication pourrait quand même être effectuée
 
+## Signification des tableaux
+
+Les mots sont les 10 mots les plus "représentatifs" des réponses à la question donnée. Cette importance est calculée par TF-IDF (le score dans la deuxième colonne). Ils sont donc classés par "importance" à la moyenne des questions (ce n'est pas facile à visualiser).
+
+Le graphe représente ainsi la différence d'utilisation de CE MOT dans les réponses du grand débat par rapport à une utilisation "normale" qui a été modélisée sur tout wikipédia + 20news groups. Une barre verte positif indique donc que le mot (du titre, qui est important pour les réponses à cette question) a été plus associé au mot en abscisse que dans la "moyenne" en français. Une barre rouge indique que le mot étudié est "normalement" souvent associé à ce terme, mais il ne l'a pas été dans les réponses au grand débat pour ce thème.
+
 ## Contact
 
         contact (at) tadadata (dot) fr
+
 ## ORGANISATION DE LETAT ET DES SERVICES PUBLICS
 
 ### Carte de participation
@@ -3831,4 +3838,3 @@ Racines de mots les plus importants dans les réponses :
 - respect
 - président
 - représent
-
