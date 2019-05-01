@@ -79,6 +79,5 @@ if __name__ == '__main__':
                 executor.writer.write_title_lvl_3(string='{} - {}'.format(indice, question), file_name=executor.report_file)
                 executor.analyzer.analyse_specific_question(theme_folder=theme, question=question, indice=indice)
 
-        exit(0)
 
         # Then, train a global D2V to see if 4 cluster are found
