@@ -4286,11 +4286,22 @@ Racines de mots les plus importants dans les réponses :
 - respect
 - président
 - représent
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
 
 
-
-| MOT | SCORE TFIDF | LINK TO GRAPH
+|MOT|SCORE_TFIDF|GRAPHE|
 |--|--|--|
-|coucou|0.456|HREF|
-|merde|0.5556|HREF|
-|haha|0.45456|HREFggg|
+|UN|1.0|HAHA|
