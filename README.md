@@ -4376,3 +4376,27 @@ Nombre de réponses : 435996
 |quotidiens|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/quotidiens.png "quotidiens")|
 |utilise|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/utilise.png "utilise")|
 |voiture|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/voiture.png "voiture")|
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+## LA TRANSITION ECOLOGIQUE
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|oui|0.4129625042412908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/oui_LA_TRANSITION_ECOLOGIQUE.png "oui")|
+|déplacements|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/déplacements_LA_TRANSITION_ECOLOGIQUE.png "déplacements")|
+|quotidiens|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/quotidiens_LA_TRANSITION_ECOLOGIQUE.png "quotidiens")|
+|utilise|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/utilise_LA_TRANSITION_ECOLOGIQUE.png "utilise")|
+|voiture|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/voiture_LA_TRANSITION_ECOLOGIQUE.png "voiture")|
