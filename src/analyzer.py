@@ -192,7 +192,7 @@ class ANALYZER():
             top_10_links = list()
             for word in top_10_words:
                 if '{}_{}.png'.format(theme_folder, word) not in os.listdir('words'):
-                    response = self.query_word_embeddings(theme=theme_folder, question=question_folder, input_word=word)
+                    response = self.query_word_embeddings(theme=theme_folder, input_word=word)
                     if response is True:
                         top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(theme_folder, word, word))
                     else:
@@ -255,7 +255,7 @@ class ANALYZER():
         # Then save it
         model.save(os.path.join(results_records_path, 'words_embedding.mod'))
 
-    def query_word_embeddings(self, theme, question, input_word):
+    def query_word_embeddings(self, theme, input_word):
         """
         Take input word and query all trained embeddings for closer terms
         """
@@ -264,42 +264,41 @@ class ANALYZER():
         global_french_model = Word2Vec.load('/home/emeric/Downloads/fr/fr.bin')
 
         # Get total question for progressbar
-        # total_possible_questions = len(self.extract_questions_from_theme(theme))
+        total_possible_questions = len(self.extract_questions_from_theme(theme))
 
         try:
 
             top_associated_words = dict()
 
             # Create progressbar
-            # widgets = ['{}: '.format(input_word), Percentage(), ' ', Bar(marker='-',left='[',right=']')]
-            # pbar = ProgressBar(widgets=widgets, maxval=total_possible_questions)
-            # i = 0
-            # pbar.start()
+            widgets = ['{}: '.format(input_word), Percentage(), ' ', Bar(marker='-',left='[',right=']')]
+            pbar = ProgressBar(widgets=widgets, maxval=total_possible_questions)
+            i = 0
+            pbar.start()
 
             # For a specific theme, extract related questions
-            # questions = self.extract_questions_from_theme(theme)
-
+            questions = self.extract_questions_from_theme(theme)
             # And for each question
-            # for question in questions:
-            question_folder = question
-            studied_path = os.path.join(self.result_dir, theme, question_folder)
-            if 'words_embedding.mod' in os.listdir(studied_path):
-                # Load word embedding
-                model = Word2Vec.load(os.path.join(studied_path, 'words_embedding.mod'))
-                try:
-                    # And query it
-                    top_close = model.most_similar(positive=input_word, topn=10)
-                except KeyError:
-                    continue
-                for word in top_close:
-                    # And add top term if cosine distance is closer to 1
+            for question in questions:
+                question_folder = unidecode.unidecode(question[:70].lower().replace(' ', '_').replace("'", '').replace(',', '').replace('/', ''))
+                studied_path = os.path.join(self.result_dir, theme, question_folder)
+                if 'words_embedding.mod' in os.listdir(studied_path):
+                    # Load word embedding
+                    model = Word2Vec.load(os.path.join(studied_path, 'words_embedding.mod'))
                     try:
-                        if word[1] > top_associated_words[word[0]][2]:
-                            top_associated_words[word[0]] = [theme, question, word[1]]
+                        # And query it
+                        top_close = model.most_similar(positive=input_word, topn=10)
                     except KeyError:
-                        top_associated_words[word[0]] = [theme, question, word[1]]
-            # i += 1
-            # pbar.update(i)
+                        continue
+                    for word in top_close:
+                        # And add top term if cosine distance is closer to 1
+                        try:
+                            if word[1] > top_associated_words[word[0]][2]:
+                                top_associated_words[word[0]] = [theme, question, word[1]]
+                        except KeyError:
+                            top_associated_words[word[0]] = [theme, question, word[1]]
+                i += 1
+                pbar.update(i)
 
 
             # And get usual associated words

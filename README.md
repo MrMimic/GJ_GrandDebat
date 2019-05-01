@@ -1307,3 +1307,2528 @@ Racines de mots les plus importants dans les réponses :
 - 80
 - mesur
 
+## LA TRANSITION ECOLOGIQUE
+
+### Carte de participation
+
+![LA_TRANSITION_ECOLOGIQUE](maps/LA_TRANSITION_ECOLOGIQUE.png)
+
+### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 435996
+
+Taille moyenne des réponses (caractères) : 15.34
+
+Taille moyenne des réponses (mots) : 2.95
+
+Taille maximum des réponses (mots) : 10
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|oui|0.4129625042412908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_oui.png "oui")|
+|déplacements|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_déplacements.png "déplacements")|
+|quotidiens|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_quotidiens.png "quotidiens")|
+|utilise|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_utilise.png "utilise")|
+|voiture|0.10820626794743922|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_voiture.png "voiture")|
+
+Racines de mots les plus importants dans les réponses :
+
+- oui
+- déplac
+- quotidien
+- utilis
+- voitur
+
+### 2 - Diriez-vous que votre vie quotidienne est aujourd'hui touchée par le changement climatique ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 443135
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 66.97%
+
+Pourcentage de "Non" : 33.03%
+
+### 3 - Et qui doit selon vous se charger de vous proposer ce type de solutions alternatives ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 344196
+
+Taille moyenne des réponses (caractères) : 80.8
+
+Taille moyenne des réponses (mots) : 13.2
+
+Taille maximum des réponses (mots) : 868
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|région|0.06358763194700856|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_région.png "région")|
+|collectivités|0.05798366356830574|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_collectivités.png "collectivités")|
+|etat|0.045649734410376654|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_etat.png "etat")|
+|commune|0.044062757889441084|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_commune.png "commune")|
+|département|0.04346591607034401|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_département.png "département")|
+|communes|0.040447397552507564|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_communes.png "communes")|
+|locales|0.034504722070271256|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_locales.png "locales")|
+|régions|0.02229919121307835|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_régions.png "régions")|
+|territoriales|0.02134369861864201|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_territoriales.png "territoriales")|
+|mairie|0.020791707427357007|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_mairie.png "mairie")|
+
+Racines de mots les plus importants dans les réponses :
+
+- commun
+- région
+- collect
+- transport
+- etat
+- local
+- départ
+- entrepris
+- mair
+- vill
+- priv
+- communaut
+- solut
+- territorial
+- public
+- citoyen
+- aid
+- servic
+- fair
+- voitur
+
+### 4 - Par rapport à votre mode de chauffage actuel, pensez-vous qu'il existe des solutions alternatives plus écologiques ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 420952
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 60.15%
+
+Pourcentage de "Non" : 39.85%
+
+### 5 - Qu'est-ce qui pourrait vous inciter à changer vos comportements comme par exemple mieux entretenir et régler votre chauffage, modifier votre manière de conduire ou renoncer à prendre votre véhicule pour de très petites distances ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 384587
+
+Taille moyenne des réponses (caractères) : 165.89
+
+Taille moyenne des réponses (mots) : 27.77
+
+Taille maximum des réponses (mots) : 1681
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|déjà|0.06670854321842333|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_déjà.png "déjà")|
+|transports|0.029193855364077644|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transports.png "transports")|
+|commun|0.026177979780067858|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_commun.png "commun")|
+|voiture|0.018552866745300503|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_voiture.png "voiture")|
+|chauffage|0.017835240441194326|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_chauffage.png "chauffage")|
+|faire|0.015256994009511528|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faire.png "faire")|
+|transport|0.013963954416062631|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transport.png "transport")|
+|véhicule|0.01269986853476107|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_véhicule.png "véhicule")|
+|aides|0.012259540033944739|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_aides.png "aides")|
+|vélo|0.011899066582179263|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_vélo.png "vélo")|
+
+Racines de mots les plus importants dans les réponses :
+
+- transport
+- commun
+- voitur
+- déjà
+- chauffag
+- aid
+- véhicul
+- fair
+- chang
+- électr
+- incit
+- vill
+- isol
+- développ
+- vélo
+- faut
+- utilis
+- cyclabl
+- petit
+- pist
+
+### 6 - Que faudrait-il faire selon vous pour apporter des réponses à ce problème ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 437097
+
+Taille moyenne des réponses (caractères) : 387.78
+
+Taille moyenne des réponses (mots) : 61.52
+
+Taille maximum des réponses (mots) : 10470
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|produits|0.016719302855932372|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_produits.png "produits")|
+|faire|0.015846786064025828|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faire.png "faire")|
+|transports|0.015447731998906793|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transports.png "transports")|
+|taxer|0.014034055408251462|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_taxer.png "taxer")|
+|réduire|0.013687014383460363|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_réduire.png "réduire")|
+|développer|0.013367554418160905|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_développer.png "développer")|
+|interdire|0.013117609726865952|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_interdire.png "interdire")|
+|faut|0.012597394991391904|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faut.png "faut")|
+|limiter|0.012440695634748386|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_limiter.png "limiter")|
+|entreprises|0.012215460264618519|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_entreprises.png "entreprises")|
+
+Racines de mots les plus importants dans les réponses :
+
+- transport
+- produit
+- tax
+- consomm
+- fair
+- énerg
+- développ
+- faut
+- écolog
+- franc
+- pollu
+- entrepris
+- utilis
+- grand
+- voitur
+- électr
+- limit
+- favoris
+- product
+- pollut
+
+### 7 - Que pourrait faire la France pour faire partager ses choix en matière d'environnement au niveau européen et international ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 361027
+
+Taille moyenne des réponses (caractères) : 170.43
+
+Taille moyenne des réponses (mots) : 28.09
+
+Taille maximum des réponses (mots) : 5694
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|exemple|0.05545839037344588|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_exemple.png "exemple")|
+|montrer|0.04293080501406361|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_montrer.png "montrer")|
+|pays|0.029031703929525022|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_pays.png "pays")|
+|faire|0.02415467050805222|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faire.png "faire")|
+|donner|0.02397895056512208|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_donner.png "donner")|
+|france|0.0232175541202768|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_france.png "france")|
+|déjà|0.01609968667785267|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_déjà.png "déjà")|
+|europe|0.015651819290672858|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_europe.png "europe")|
+|choix|0.015275791560987954|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_choix.png "choix")|
+|exemplaire|0.014274613337317403|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_exemplaire.png "exemplaire")|
+
+Racines de mots les plus importants dans les réponses :
+
+- exempl
+- pay
+- franc
+- européen
+- fair
+- montr
+- écolog
+- tax
+- europ
+- produit
+- niveau
+- don
+- choix
+- environ
+- polit
+- déjà
+- faut
+- développ
+- international
+- énerg
+
+### 8 - Quel est aujourd'hui pour vous le problème concret le plus important dans le domaine de l'environnement ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 456919
+
+Taille moyenne des réponses (caractères) : 59.14
+
+Taille moyenne des réponses (mots) : 9.06
+
+Taille maximum des réponses (mots) : 4087
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|air|0.14298803032085325|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_air.png "air")|
+|pollution|0.14294378414589023|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_pollution.png "pollution")|
+|crue|0.13912361031784243|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_crue.png "crue")|
+|sécheresse|0.13904437682257698|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_sécheresse.png "sécheresse")|
+|dérèglements|0.1389061395430113|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_dérèglements.png "dérèglements")|
+|climatiques|0.138643987567412|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_climatiques.png "climatiques")|
+|disparition|0.11366940683283475|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_disparition.png "disparition")|
+|espèces|0.11362044277236148|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_espèces.png "espèces")|
+|biodiversité|0.11346936595050344|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_biodiversité.png "biodiversité")|
+|problèmes|0.0093759936558531|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_problèmes.png "problèmes")|
+
+Racines de mots les plus importants dans les réponses :
+
+- climat
+- déregl
+- sécheress
+- cru
+- pollut
+- air
+- biodivers
+- disparit
+- espec
+- problem
+- import
+- li
+- eau
+- sol
+- déchet
+- environ
+- éros
+- ensembl
+- terr
+- littoral
+
+### 9 - Quelles seraient pour vous les solutions les plus simples et les plus supportables sur un plan financier pour vous inciter à changer vos comportements ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 332870
+
+Taille moyenne des réponses (caractères) : 162.38
+
+Taille moyenne des réponses (mots) : 26.75
+
+Taille maximum des réponses (mots) : 8350
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|transports|0.022771992084740244|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transports.png "transports")|
+|commun|0.019233392431612702|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_commun.png "commun")|
+|produits|0.016879867950531757|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_produits.png "produits")|
+|aides|0.016567939189374364|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_aides.png "aides")|
+|prix|0.0164629875135966|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_prix.png "prix")|
+|aide|0.014293819997260145|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_aide.png "aide")|
+|faire|0.013584235750204642|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faire.png "faire")|
+|voiture|0.012162090092194046|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_voiture.png "voiture")|
+|changer|0.011304812918800535|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_changer.png "changer")|
+|déjà|0.010587708632930903|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_déjà.png "déjà")|
+
+Racines de mots les plus importants dans les réponses :
+
+- aid
+- transport
+- tax
+- produit
+- commun
+- chang
+- voitur
+- fair
+- véhicul
+- électr
+- financi
+- prix
+- écolog
+- incit
+- consomm
+- comport
+- faut
+- solut
+- isol
+- impôt
+
+### 10 - Si non, quelles sont les solutions de mobilité alternatives que vous souhaiteriez pouvoir utiliser ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 309509
+
+Taille moyenne des réponses (caractères) : 51.51
+
+Taille moyenne des réponses (mots) : 8.98
+
+Taille maximum des réponses (mots) : 1555
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|transports|0.2835119680801581|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transports.png "transports")|
+|commun|0.2834762022241322|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_commun.png "commun")|
+|vélo|0.20763091183057586|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_vélo.png "vélo")|
+|covoiturage|0.1293751383754913|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_covoiturage.png "covoiturage")|
+|demande|0.1223424240394383|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_demande.png "demande")|
+|transport|0.12190756198785921|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transport.png "transport")|
+|auto|0.07452246349806914|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_auto.png "auto")|
+|partage|0.07446161650601522|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_partage.png "partage")|
+|voiture|0.01400511667259641|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_voiture.png "voiture")|
+|marche|0.0131243150822077|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_marche.png "marche")|
+
+Racines de mots les plus importants dans les réponses :
+
+- transport
+- commun
+- vélo
+- demand
+- covoiturag
+- partag
+- auto
+- voitur
+- électr
+- march
+- véhicul
+- pied
+- solut
+- train
+- déplac
+- vill
+- utilis
+- campagn
+- travail
+- rural
+
+### 11 - Si oui, de quelle manière votre vie quotidienne est-elle touchée par le changement climatique ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 288692
+
+Taille moyenne des réponses (caractères) : 125.45
+
+Taille moyenne des réponses (mots) : 20.39
+
+Taille maximum des réponses (mots) : 2080
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|pollution|0.043216536873980374|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_pollution.png "pollution")|
+|air|0.03130563237351926|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_air.png "air")|
+|sécheresse|0.02479180390592117|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_sécheresse.png "sécheresse")|
+|saisons|0.021739903550965216|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_saisons.png "saisons")|
+|canicule|0.016382978131249535|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_canicule.png "canicule")|
+|inondations|0.016056526824035463|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_inondations.png "inondations")|
+|chaleur|0.015811017769240182|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_chaleur.png "chaleur")|
+|climatique|0.015440937336205258|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_climatique.png "climatique")|
+|climatiques|0.015215925063186166|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_climatiques.png "climatiques")|
+|températures|0.01510109004596608|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_températures.png "températures")|
+
+Racines de mots les plus importants dans les réponses :
+
+- pollut
+- climat
+- air
+- sécheress
+- saison
+- chang
+- canicul
+- températur
+- eau
+- chaleur
+- inond
+- disparit
+- déregl
+- chaud
+- augment
+- oiseau
+- espec
+- tempêt
+- insect
+- vi
+
+### 12 - Si oui, que faites-vous aujourd'hui pour protéger l'environnement et/ou que pourriez-vous faire ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 416575
+
+Taille moyenne des réponses (caractères) : 192.58
+
+Taille moyenne des réponses (mots) : 31.65
+
+Taille maximum des réponses (mots) : 9703
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|tri|0.04362303012120248|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_tri.png "tri")|
+|déchets|0.04151930128185252|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_déchets.png "déchets")|
+|consommation|0.031109942175868734|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_consommation.png "consommation")|
+|produits|0.030384858707684342|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_produits.png "produits")|
+|voiture|0.030174947708799273|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_voiture.png "voiture")|
+|eau|0.023634889512468064|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_eau.png "eau")|
+|sélectif|0.02283958385360352|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_sélectif.png "sélectif")|
+|transports|0.022537111857860156|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transports.png "transports")|
+|bio|0.02252654802237684|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_bio.png "bio")|
+|commun|0.02169485761837201|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_commun.png "commun")|
+
+Racines de mots les plus importants dans les réponses :
+
+- tri
+- consomm
+- déchet
+- produit
+- utilis
+- voitur
+- eau
+- local
+- transport
+- limit
+- déplac
+- achet
+- bio
+- commun
+- achat
+- électr
+- chauffag
+- vélo
+- fair
+- sélect
+
+### 13 - Si oui, que faudrait-il faire pour vous convaincre ou vous aider à changer de mode de chauffage ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 271703
+
+Taille moyenne des réponses (caractères) : 121.28
+
+Taille moyenne des réponses (mots) : 20.19
+
+Taille maximum des réponses (mots) : 1313
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|chauffage|0.03330558482144534|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_chauffage.png "chauffage")|
+|aide|0.032455028458143444|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_aide.png "aide")|
+|aides|0.025997181506635523|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_aides.png "aides")|
+|financière|0.022263519127843582|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_financière.png "financière")|
+|solaire|0.017814856998950634|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_solaire.png "solaire")|
+|chaleur|0.017288820287598303|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_chaleur.png "chaleur")|
+|panneaux|0.016272247754084437|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_panneaux.png "panneaux")|
+|isolation|0.015729284077762654|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_isolation.png "isolation")|
+|chaudière|0.015297051100322853|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_chaudière.png "chaudière")|
+|changer|0.014526063428875505|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_changer.png "changer")|
+
+Racines de mots les plus importants dans les réponses :
+
+- aid
+- chauffag
+- solair
+- financi
+- chang
+- isol
+- électr
+- chaudi
+- install
+- énerg
+- panneau
+- chaleur
+- mod
+- fair
+- pomp
+- solut
+- gaz
+- écolog
+- maison
+- invest
+
+### 14 - Si oui, que faudrait-il faire pour vous convaincre ou vous aider à utiliser ces solutions alternatives ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 230102
+
+Taille moyenne des réponses (caractères) : 136.99
+
+Taille moyenne des réponses (mots) : 23.22
+
+Taille maximum des réponses (mots) : 1631
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|transports|0.047189091465880635|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transports.png "transports")|
+|commun|0.04427460913701742|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_commun.png "commun")|
+|déjà|0.03513564337623144|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_déjà.png "déjà")|
+|utilise|0.029752970599406944|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_utilise.png "utilise")|
+|transport|0.02462749810965383|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transport.png "transport")|
+|vélo|0.02462470031199489|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_vélo.png "vélo")|
+|cyclables|0.022355866710177672|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_cyclables.png "cyclables")|
+|bus|0.02225163812443127|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_bus.png "bus")|
+|pistes|0.02187847920943489|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_pistes.png "pistes")|
+|voiture|0.02030555162104893|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_voiture.png "voiture")|
+
+Racines de mots les plus importants dans les réponses :
+
+- transport
+- commun
+- voitur
+- utilis
+- vélo
+- bus
+- cyclabl
+- vill
+- pist
+- développ
+- train
+- déjà
+- horair
+- gratuit
+- travail
+- déplac
+- solut
+- covoiturag
+- fair
+- électr
+
+### 15 - Y a-t-il d'autres points sur la transition écologique sur lesquels vous souhaiteriez vous exprimer ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 346482
+
+Taille moyenne des réponses (caractères) : 447.76
+
+Taille moyenne des réponses (mots) : 72.64
+
+Taille maximum des réponses (mots) : 51212
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|faut|0.019287633784408797|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faut.png "faut")|
+|faire|0.017313095191467936|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_faire.png "faire")|
+|écologique|0.01658885952883699|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_écologique.png "écologique")|
+|transition|0.01632412794677502|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_transition.png "transition")|
+|produits|0.013272300014813724|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_produits.png "produits")|
+|taxer|0.010962904909907428|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_taxer.png "taxer")|
+|france|0.010943939270395282|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_france.png "france")|
+|nucléaire|0.010870987116878741|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_nucléaire.png "nucléaire")|
+|énergie|0.010746200054157008|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_énergie.png "énergie")|
+|développer|0.010582022380383943|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_TRANSITION_ECOLOGIQUE_développer.png "développer")|
+
+Racines de mots les plus importants dans les réponses :
+
+- écolog
+- faut
+- fair
+- tax
+- franc
+- énerg
+- produit
+- transit
+- électr
+- développ
+- transport
+- consomm
+- voitur
+- grand
+- nucléair
+- entrepris
+- utilis
+- véhicul
+- product
+- pollu
+
+### 16 - À titre personnel, pensez-vous pouvoir contribuer à protéger l'environnement ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 443117
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 94.51%
+
+Pourcentage de "Non" : 5.49%
+
+## LA FISCALITE ET LES DEPENSES PUBLIQUES
+
+### Carte de participation
+
+![LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES](maps/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES.png)
+
+### 1 - Afin de financer les dépenses sociales, faut-il selon vous...
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 522223
+
+Taille moyenne des réponses (caractères) : 141.44
+
+Taille moyenne des réponses (mots) : 22.63
+
+Taille maximum des réponses (mots) : 3525
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|aides|0.1484676571730609|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_aides.png "aides")|
+|sociales|0.1463531801806897|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_sociales.png "sociales")|
+|attribution|0.14596774787888045|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_attribution.png "attribution")|
+|revoir|0.14574743716466468|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_revoir.png "revoir")|
+|conditions|0.14562799678290583|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_conditions.png "conditions")|
+|augmenter|0.09559027647037384|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_augmenter.png "augmenter")|
+|travail|0.08847347821785678|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_travail.png "travail")|
+|temps|0.08789227846863287|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_temps.png "temps")|
+|retraite|0.07762184105264297|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_retraite.png "retraite")|
+|âge|0.07669888006881342|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_âge.png "âge")|
+
+Racines de mots les plus importants dans les réponses :
+
+- social
+- aid
+- revoir
+- attribu
+- condit
+- augment
+- travail
+- retrait
+- temp
+- âge
+- recul
+- fiscal
+- impôt
+- tax
+- dépens
+- fair
+- entrepris
+- franc
+- supprim
+- fraud
+
+### 2 - Pour quelle(s) politique(s) publique(s) ou pour quels domaines d'action publique, seriez-vous prêts à payer plus d'impôts ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 442531
+
+Taille moyenne des réponses (caractères) : 100.81
+
+Taille moyenne des réponses (mots) : 16.94
+
+Taille maximum des réponses (mots) : 2884
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|santé|0.07091291784045908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_santé.png "santé")|
+|éducation|0.04663874166951176|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_éducation.png "éducation")|
+|impôts|0.025518425080341346|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôts.png "impôts")|
+|déjà|0.02436622946300346|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_déjà.png "déjà")|
+|sécurité|0.021215356239522132|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_sécurité.png "sécurité")|
+|education|0.019967109227169377|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_education.png "education")|
+|environnement|0.017620528230940916|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_environnement.png "environnement")|
+|payer|0.017447297250681327|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_payer.png "payer")|
+|transition|0.017087651544700055|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_transition.png "transition")|
+|justice|0.015537721490431361|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_justice.png "justice")|
+
+Racines de mots les plus importants dans les réponses :
+
+- impôt
+- sant
+- pai
+- éduc
+- déjà
+- faut
+- écolog
+- pay
+- dépens
+- aid
+- publiqu
+- franc
+- fair
+- sécur
+- augment
+- transit
+- tax
+- social
+- fiscal
+- justic
+
+### 3 - Que faudrait-il faire pour rendre la fiscalité plus juste et plus efficace ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 518709
+
+Taille moyenne des réponses (caractères) : 355.11
+
+Taille moyenne des réponses (mots) : 59.7
+
+Taille maximum des réponses (mots) : 13304
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|impôt|0.04188724906476025|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôt.png "impôt")|
+|revenus|0.0318071638856003|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_revenus.png "revenus")|
+|revenu|0.0293505453068842|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_revenu.png "revenu")|
+|impôts|0.027637711376805076|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôts.png "impôts")|
+|monde|0.02585536876424201|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_monde.png "monde")|
+|payer|0.02377745797277555|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_payer.png "payer")|
+|supprimer|0.02167417075000979|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_supprimer.png "supprimer")|
+|fiscales|0.020258690737834862|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_fiscales.png "fiscales")|
+|faire|0.020242259481376798|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_faire.png "faire")|
+|tranches|0.0199442097344549|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_tranches.png "tranches")|
+
+Racines de mots les plus importants dans les réponses :
+
+- impôt
+- fiscal
+- tax
+- pai
+- revenus
+- revenu
+- franc
+- entrepris
+- tranch
+- supprim
+- fair
+- mond
+- tva
+- augment
+- nich
+- social
+- aid
+- citoyen
+- produit
+- retrait
+
+### 4 - Quelles sont toutes les choses qui pourraient être faites pour améliorer l'information des citoyens sur l'utilisation des impôts ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 436728
+
+Taille moyenne des réponses (caractères) : 216.92
+
+Taille moyenne des réponses (mots) : 35.71
+
+Taille maximum des réponses (mots) : 14963
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|impôts|0.03206809766214051|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôts.png "impôts")|
+|dépenses|0.03112732386948845|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_dépenses.png "dépenses")|
+|transparence|0.02741105572087249|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_transparence.png "transparence")|
+|utilisation|0.022358518659873053|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_utilisation.png "utilisation")|
+|impôt|0.019906220518847887|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôt.png "impôt")|
+|information|0.018766412516226936|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_information.png "information")|
+|site|0.015350070981174689|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_site.png "site")|
+|citoyens|0.014473629536209887|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_citoyens.png "citoyens")|
+|internet|0.014271212050805095|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_internet.png "internet")|
+|faire|0.013497766022547738|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_faire.png "faire")|
+
+Racines de mots les plus importants dans les réponses :
+
+- impôt
+- dépens
+- inform
+- utilis
+- citoyen
+- publiqu
+- transparent
+- compt
+- fair
+- franc
+- budget
+- public
+- fiscal
+- tax
+- pai
+- annuel
+- social
+- anné
+- servic
+- sit
+
+### 5 - Quels sont les domaines prioritaires où notre protection sociale doit être renforcée ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 439536
+
+Taille moyenne des réponses (caractères) : 102.81
+
+Taille moyenne des réponses (mots) : 17.0
+
+Taille maximum des réponses (mots) : 3926
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|santé|0.12649689213547624|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_santé.png "santé")|
+|dépendance|0.02876736785619803|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_dépendance.png "dépendance")|
+|logement|0.02838579000816582|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_logement.png "logement")|
+|âgées|0.027687386433217664|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_âgées.png "âgées")|
+|aide|0.023708850455142434|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_aide.png "aide")|
+|éducation|0.02333443825073337|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_éducation.png "éducation")|
+|handicap|0.022961233220141267|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_handicap.png "handicap")|
+|retraite|0.022355433872094557|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_retraite.png "retraite")|
+|enfance|0.02086257126386532|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_enfance.png "enfance")|
+|vieillesse|0.017683162820666374|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_vieillesse.png "vieillesse")|
+
+Racines de mots les plus importants dans les réponses :
+
+- sant
+- aid
+- retrait
+- handicap
+- social
+- log
+- âgé
+- dépend
+- enfant
+- protect
+- malad
+- soin
+- éduc
+- charg
+- vi
+- faut
+- enfanc
+- famill
+- franc
+- pris
+
+### 6 - Quels sont selon vous les impôts qu'il faut baisser en priorité ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 474190
+
+Taille moyenne des réponses (caractères) : 134.86
+
+Taille moyenne des réponses (mots) : 23.32
+
+Taille maximum des réponses (mots) : 6954
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|tva|0.10281548730147227|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_tva.png "tva")|
+|revenu|0.06091578964477664|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_revenu.png "revenu")|
+|produits|0.04919567624447329|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_produits.png "produits")|
+|impôt|0.0471667284600007|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôt.png "impôt")|
+|impôts|0.04488340092846636|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôts.png "impôts")|
+|csg|0.043023918373106554|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_csg.png "csg")|
+|taxe|0.04010335414078276|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_taxe.png "taxe")|
+|nécessité|0.03581453935499507|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_nécessité.png "nécessité")|
+|habitation|0.02965359108943941|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_habitation.png "habitation")|
+|taxes|0.02725196806498995|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_taxes.png "taxes")|
+
+Racines de mots les plus importants dans les réponses :
+
+- impôt
+- tva
+- tax
+- produit
+- revenu
+- baiss
+- csg
+- nécess
+- habit
+- supprim
+- faut
+- revenus
+- retrait
+- fonci
+- augment
+- pai
+- impot
+- fiscal
+- moyen
+- franc
+
+### 7 - S'il faut selon vous revoir les conditions d'attribution de certaines aides sociales, lesquelles doivent être concernées ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 418642
+
+Taille moyenne des réponses (caractères) : 190.1
+
+Taille moyenne des réponses (mots) : 31.59
+
+Taille maximum des réponses (mots) : 11947
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|allocations|0.05095356652277424|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_allocations.png "allocations")|
+|aides|0.04522199414295729|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_aides.png "aides")|
+|familiales|0.04262612945537584|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_familiales.png "familiales")|
+|rsa|0.033886687169422613|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_rsa.png "rsa")|
+|chômage|0.033868039167636484|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_chômage.png "chômage")|
+|sociales|0.02266324100327895|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_sociales.png "sociales")|
+|aide|0.02123962233584299|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_aide.png "aide")|
+|allocation|0.01892544059614491|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_allocation.png "allocation")|
+|enfants|0.018121585791101152|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_enfants.png "enfants")|
+|revenus|0.017334572555472973|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_revenus.png "revenus")|
+
+Racines de mots les plus importants dans les réponses :
+
+- aid
+- alloc
+- social
+- familial
+- enfant
+- chômag
+- rsa
+- faut
+- attribu
+- franc
+- travail
+- log
+- revenus
+- contrôl
+- travaill
+- famill
+- fair
+- emploi
+- condit
+- supprim
+
+### 8 - Y a-t-il d'autres points sur les impôts et les dépenses sur lesquels vous souhaiteriez vous exprimer ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 446559
+
+Taille moyenne des réponses (caractères) : 471.49
+
+Taille moyenne des réponses (mots) : 78.42
+
+Taille maximum des réponses (mots) : 12890
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|dépenses|0.018914469171846603|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_dépenses.png "dépenses")|
+|faut|0.01812112095710074|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_faut.png "faut")|
+|impôts|0.017693774079779265|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôts.png "impôts")|
+|impôt|0.017503959352217574|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_impôt.png "impôt")|
+|supprimer|0.0161578507919409|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_supprimer.png "supprimer")|
+|faire|0.015104268911591905|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_faire.png "faire")|
+|vie|0.013074349672101457|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_vie.png "vie")|
+|retraites|0.01283491551482261|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_retraites.png "retraites")|
+|réduire|0.012535711093564796|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_réduire.png "réduire")|
+|france|0.01244096162466063|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/LA_FISCALITE_ET_LES_DEPENSES_PUBLIQUES_france.png "france")|
+
+Racines de mots les plus importants dans les réponses :
+
+- impôt
+- retrait
+- franc
+- fiscal
+- dépens
+- tax
+- faut
+- pai
+- fair
+- entrepris
+- social
+- supprim
+- aid
+- salair
+- publiqu
+- augment
+- pay
+- vi
+- fonction
+- économ
+
+## DEMOCRATIE ET CITOYENNETE
+
+### Carte de participation
+
+![DEMOCRATIE_ET_CITOYENNETE](maps/DEMOCRATIE_ET_CITOYENNETE.png)
+
+### 1 - Comment garantir le respect par tous de la compréhension réciproque et des valeurs intangibles de la République ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 242539
+
+Taille moyenne des réponses (caractères) : 152.34
+
+Taille moyenne des réponses (mots) : 25.58
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|éducation|0.05517211430960885|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|école|0.042607134389282236|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_école.png "école")|
+|civique|0.032094813606750594|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_civique.png "civique")|
+|valeurs|0.026196059147979872|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_valeurs.png "valeurs")|
+|république|0.02292502170106708|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_république.png "république")|
+|education|0.02174742153239562|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_education.png "education")|
+|loi|0.02107090255234669|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_loi.png "loi")|
+|respect|0.020152550840226022|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+|faire|0.01847472429401398|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|instruction|0.015261384519201584|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_instruction.png "instruction")|
+
+Racines de mots les plus importants dans les réponses :
+
+- écol
+- éduc
+- respect
+- valeur
+- républ
+- civiqu
+- fair
+- franc
+- citoyen
+- enseign
+- loi
+- faut
+- appliqu
+- droit
+- jeun
+- national
+- sanction
+- lois
+- servic
+- cour
+
+### 2 - En dehors des élus politiques, faut-il donner un rôle plus important aux associations et aux organisations syndicales et professionnelles ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 307638
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 60.31%
+
+Pourcentage de "Non" : 39.69%
+
+### 3 - En matière d'immigration, une fois nos obligations d'asile remplies, souhaitez-vous que nous puissions nous fixer des objectifs annuels définis par le Parlement ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 246511
+
+Taille moyenne des réponses (caractères) : 79.05
+
+Taille moyenne des réponses (mots) : 13.76
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|oui|0.2992649489428453|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_oui.png "oui")|
+|objectifs|0.01764635036872736|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_objectifs.png "objectifs")|
+|quotas|0.017364251363602732|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_quotas.png "quotas")|
+|immigration|0.016434660763635055|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_immigration.png "immigration")|
+|pays|0.01626614681969808|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_pays.png "pays")|
+|faut|0.014281820242193597|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faut.png "faut")|
+|asile|0.013633611105225157|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_asile.png "asile")|
+|besoins|0.012021476002245655|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_besoins.png "besoins")|
+|fonction|0.011312278129542474|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_fonction.png "fonction")|
+|obligations|0.010347977651052845|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_obligations.png "obligations")|
+
+Racines de mots les plus importants dans les réponses :
+
+- oui
+- immigr
+- object
+- pay
+- franc
+- quot
+- asil
+- accueil
+- faut
+- oblig
+- besoin
+- fix
+- fonction
+- integr
+- fair
+- économ
+- migr
+- parl
+- polit
+- annuel
+
+### 4 - En qui faites-vous le plus confiance pour vous faire représenter dans la société et pourquoi ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 289691
+
+Taille moyenne des réponses (caractères) : 145.72
+
+Taille moyenne des réponses (mots) : 24.73
+
+Taille maximum des réponses (mots) : 9291
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|maire|0.09258825492246711|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_maire.png "maire")|
+|élus|0.062486345057959844|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élus.png "élus")|
+|député|0.038122682972748144|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_député.png "député")|
+|maires|0.027587313657943886|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_maires.png "maires")|
+|députés|0.027059391221273054|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_députés.png "députés")|
+|citoyens|0.023353094640945704|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|confiance|0.02250651099338917|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_confiance.png "confiance")|
+|associations|0.018832549715569417|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_associations.png "associations")|
+|proximité|0.018616758238829908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_proximité.png "proximité")|
+|locaux|0.018446474911808182|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_locaux.png "locaux")|
+
+Racines de mots les plus importants dans les réponses :
+
+- mair
+- élus
+- déput
+- représent
+- citoyen
+- polit
+- confianc
+- local
+- vot
+- élu
+- démocrat
+- associ
+- président
+- part
+- commun
+- fair
+- pouvoir
+- franc
+- national
+- intérêt
+
+### 5 - Faut-il faciliter le déclenchement du référendum d'initiative partagée (le RIP est organisé à l'initiative de membres du Parlement soutenu par une partie du corps électoral) qui est applicable depuis 2015 ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 307444
+
+Taille moyenne des réponses (caractères) : 5.31
+
+Taille moyenne des réponses (mots) : 1.63
+
+Taille maximum des réponses (mots) : 4
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|oui|0.5208623359056849|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_oui.png "oui")|
+|sais|0.2104513342268578|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sais.png "sais")|
+
+Racines de mots les plus importants dans les réponses :
+
+- oui
+- sais
+
+### 6 - Faut-il prendre en compte le vote blanc ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 314030
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 82.09%
+
+Pourcentage de "Non" : 17.91%
+
+### 7 - Le non-cumul des mandats instauré en 2017 pour les parlementaires (députés et sénateurs) est :
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 316723
+
+Taille moyenne des réponses (caractères) : 15.32
+
+Taille moyenne des réponses (mots) : 3.11
+
+Taille maximum des réponses (mots) : 4
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|bonne|0.5673865337348706|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_bonne.png "bonne")|
+|chose|0.5410852479166174|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_chose.png "chose")|
+|mauvaise|0.1333521295102892|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_mauvaise.png "mauvaise")|
+|sais|0.10729880684390296|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sais.png "sais")|
+
+Racines de mots les plus importants dans les réponses :
+
+- chos
+- bon
+- mauvais
+- sais
+
+### 8 - Pensez-vous qu'il faille instaurer des contreparties aux différentes allocations de solidarité ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 270162
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 73.19%
+
+Pourcentage de "Non" : 26.81%
+
+### 9 - Pensez-vous qu'il serait souhaitable de réduire le nombre d'élus (hors députés et sénateurs) ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 302108
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 72.38%
+
+Pourcentage de "Non" : 27.62%
+
+### 10 - Que faudrait-il faire aujourd'hui pour mieux associer les citoyens aux grandes orientations et à la décision publique ? Comment mettre en place une démocratie plus participative ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 278734
+
+Taille moyenne des réponses (caractères) : 192.94
+
+Taille moyenne des réponses (mots) : 31.43
+
+Taille maximum des réponses (mots) : 8083
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|référendum|0.04930449889401059|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_référendum.png "référendum")|
+|citoyens|0.030523207907659555|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|ric|0.02990038104547567|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_ric.png "ric")|
+|référendums|0.023045918600710816|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_référendums.png "référendums")|
+|faire|0.01985497429285095|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|vote|0.016651322955487106|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vote.png "vote")|
+|internet|0.016212491053962483|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_internet.png "internet")|
+|débat|0.016200234978399713|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_débat.png "débat")|
+|referendum|0.01567488959261274|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_referendum.png "referendum")|
+|élus|0.015542835526271972|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élus.png "élus")|
+
+Racines de mots les plus importants dans les réponses :
+
+- citoyen
+- référendum
+- débat
+- grand
+- vot
+- local
+- particip
+- fair
+- consult
+- décis
+- élus
+- national
+- sort
+- question
+- polit
+- démocrat
+- plac
+- niveau
+- faut
+- organis
+
+### 11 - Que faudrait-il faire aujourd'hui pour renforcer l'engagement citoyen dans la société ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 235686
+
+Taille moyenne des réponses (caractères) : 144.67
+
+Taille moyenne des réponses (mots) : 23.88
+
+Taille maximum des réponses (mots) : 6081
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|service|0.03329915212354945|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_service.png "service")|
+|obligatoire|0.029511806030043445|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_obligatoire.png "obligatoire")|
+|civique|0.02424808368458855|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_civique.png "civique")|
+|citoyens|0.023057386561742537|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|vote|0.022862103412250628|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vote.png "vote")|
+|citoyen|0.021000944599724337|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyen.png "citoyen")|
+|faire|0.01694331248709785|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|engagement|0.01643797750674779|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_engagement.png "engagement")|
+|éducation|0.016175680271843938|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|militaire|0.01421750430594759|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_militaire.png "militaire")|
+
+Racines de mots les plus importants dans les réponses :
+
+- citoyen
+- servic
+- engag
+- associ
+- obligatoir
+- civiqu
+- fair
+- vot
+- don
+- jeun
+- écol
+- societ
+- polit
+- particip
+- respect
+- éduc
+- franc
+- national
+- vi
+- faut
+
+### 12 - Que faudrait-il faire pour consulter plus directement les citoyens sur l'utilisation de l'argent public, par l'Etat et les collectivités ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 255466
+
+Taille moyenne des réponses (caractères) : 147.15
+
+Taille moyenne des réponses (mots) : 24.08
+
+Taille maximum des réponses (mots) : 4162
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|référendum|0.03378335772925214|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_référendum.png "référendum")|
+|citoyens|0.026333342508919586|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|internet|0.02558856136736636|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_internet.png "internet")|
+|ric|0.0195643259108307|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_ric.png "ric")|
+|faire|0.018700413506496993|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|comptes|0.018595434249497483|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_comptes.png "comptes")|
+|transparence|0.01613723424982734|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_transparence.png "transparence")|
+|dépenses|0.016126684246584005|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_dépenses.png "dépenses")|
+|argent|0.015871385523688664|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_argent.png "argent")|
+|élus|0.013800961706843275|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élus.png "élus")|
+
+Racines de mots les plus importants dans les réponses :
+
+- citoyen
+- consult
+- compt
+- dépens
+- public
+- référendum
+- fair
+- argent
+- utilis
+- budget
+- inform
+- vot
+- internet
+- local
+- publiqu
+- élus
+- grand
+- cour
+- transparent
+- niveau
+
+### 13 - Que faudrait-il faire pour favoriser le développement de ces comportements civiques et par quels engagements concrets chacun peut-il y participer ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 204929
+
+Taille moyenne des réponses (caractères) : 146.04
+
+Taille moyenne des réponses (mots) : 24.04
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|éducation|0.0385747394831132|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|école|0.02969962637574783|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_école.png "école")|
+|civique|0.024234230158799136|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_civique.png "civique")|
+|service|0.020082836117163626|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_service.png "service")|
+|education|0.017257093080446238|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_education.png "education")|
+|exemple|0.016450543500884103|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_exemple.png "exemple")|
+|faire|0.014827635988785648|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|parents|0.013916464468983753|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_parents.png "parents")|
+|associations|0.01262903657731838|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_associations.png "associations")|
+|respect|0.012214574447809308|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+
+Racines de mots les plus importants dans les réponses :
+
+- écol
+- éduc
+- civiqu
+- citoyen
+- servic
+- fair
+- associ
+- comport
+- respect
+- exempl
+- jeun
+- parent
+- enfant
+- faut
+- don
+- engag
+- sanction
+- aid
+- vi
+- enseign
+
+### 14 - Que faudrait-il faire pour lutter contre ces discriminations et construire une société plus solidaire et plus tolérante ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 197670
+
+Taille moyenne des réponses (caractères) : 135.52
+
+Taille moyenne des réponses (mots) : 22.47
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|éducation|0.0396244751818861|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|education|0.019952953676908088|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_education.png "education")|
+|éduquer|0.017823433839938268|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éduquer.png "éduquer")|
+|école|0.0175369560229533|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_école.png "école")|
+|faire|0.016662431560572316|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|eduquer|0.0124071600292045|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_eduquer.png "eduquer")|
+|respect|0.011284361463705886|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+|société|0.010883891502614847|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_société.png "société")|
+|tolérance|0.010122669186262973|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_tolérance.png "tolérance")|
+|sanctionner|0.010095410880863387|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sanctionner.png "sanctionner")|
+
+Racines de mots les plus importants dans les réponses :
+
+- éduc
+- fair
+- écol
+- discrimin
+- respect
+- social
+- toler
+- societ
+- faut
+- franc
+- sanction
+- jeun
+- éduqu
+- enfant
+- citoyen
+- femm
+- exempl
+- égal
+- educ
+- arrêt
+
+### 15 - Que faudrait-il faire pour mieux représenter les différentes sensibilités politiques ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 260642
+
+Taille moyenne des réponses (caractères) : 128.94
+
+Taille moyenne des réponses (mots) : 20.58
+
+Taille maximum des réponses (mots) : 2544
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|proportionnelle|0.15337079304257595|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_proportionnelle.png "proportionnelle")|
+|dose|0.05435368753693798|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_dose.png "dose")|
+|élections|0.03247772198216188|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élections.png "élections")|
+|instaurer|0.023195892967363466|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_instaurer.png "instaurer")|
+|vote|0.022973403631387702|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vote.png "vote")|
+|introduire|0.02204702272802706|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_introduire.png "introduire")|
+|intégrale|0.018712907101002787|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_intégrale.png "intégrale")|
+|proportionnel|0.018543601687059215|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_proportionnel.png "proportionnel")|
+|législatives|0.017350267543515447|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_législatives.png "législatives")|
+|assemblée|0.0172915149509952|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_assemblée.png "assemblée")|
+
+Racines de mots les plus importants dans les réponses :
+
+- proportionnel
+- part
+- polit
+- dos
+- représent
+- élect
+- vot
+- assembl
+- citoyen
+- sensibil
+- national
+- déput
+- élus
+- major
+- instaur
+- législ
+- faut
+- introduir
+- scrutin
+- fair
+
+### 16 - Que faudrait-il faire pour renouer le lien entre les citoyens et les élus qui les représentent ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 290274
+
+Taille moyenne des réponses (caractères) : 242.11
+
+Taille moyenne des réponses (mots) : 40.08
+
+Taille maximum des réponses (mots) : 6986
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|élus|0.045164762148170653|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élus.png "élus")|
+|citoyens|0.030563188409118452|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|faire|0.016418869122692293|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|transparence|0.015864932212423057|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_transparence.png "transparence")|
+|politique|0.012689790976094194|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_politique.png "politique")|
+|élu|0.012200101577237589|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élu.png "élu")|
+|mandat|0.012193065443213363|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_mandat.png "mandat")|
+|vie|0.01175363003686193|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vie.png "vie")|
+|vote|0.011411364328727268|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vote.png "vote")|
+|députés|0.01137928269841853|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_députés.png "députés")|
+
+Racines de mots les plus importants dans les réponses :
+
+- élus
+- citoyen
+- polit
+- mandat
+- vot
+- fair
+- représent
+- déput
+- élu
+- faut
+- part
+- vi
+- compt
+- local
+- pouvoir
+- assembl
+- élect
+- franc
+- commun
+- national
+
+### 17 - Que faudrait-il faire pour valoriser l'engagement citoyen dans les parcours de vie, dans les relations avec l'administration et les pouvoirs publics ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 167474
+
+Taille moyenne des réponses (caractères) : 125.41
+
+Taille moyenne des réponses (mots) : 20.5
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|sais|0.025168662293206804|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sais.png "sais")|
+|citoyen|0.019359067393986133|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyen.png "citoyen")|
+|citoyens|0.018679555073647734|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|administration|0.017664895572998933|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_administration.png "administration")|
+|engagement|0.017555265731683364|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_engagement.png "engagement")|
+|service|0.016706437314228564|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_service.png "service")|
+|faire|0.013779732780709692|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|publics|0.012968933775974651|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_publics.png "publics")|
+|question|0.012727819995418325|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_question.png "question")|
+|valoriser|0.01244339990567247|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_valoriser.png "valoriser")|
+
+Racines de mots les plus importants dans les réponses :
+
+- citoyen
+- administr
+- engag
+- servic
+- public
+- fair
+- valoris
+- pouvoir
+- associ
+- vi
+- don
+- retrait
+- faut
+- respect
+- exempl
+- civiqu
+- temp
+- aid
+- question
+- publiqu
+
+### 18 - Que pensez-vous de la participation des citoyens aux élections et comment les inciter à y participer davantage ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 284508
+
+Taille moyenne des réponses (caractères) : 168.51
+
+Taille moyenne des réponses (mots) : 28.26
+
+Taille maximum des réponses (mots) : 2313
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|vote|0.11607638126909245|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vote.png "vote")|
+|obligatoire|0.10788272619151115|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_obligatoire.png "obligatoire")|
+|blanc|0.033299930831001794|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_blanc.png "blanc")|
+|citoyens|0.02374395999489513|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|compte|0.023364787941410375|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_compte.png "compte")|
+|participation|0.022268429538307953|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_participation.png "participation")|
+|voter|0.02138388936248304|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_voter.png "voter")|
+|faut|0.020413854476200755|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faut.png "faut")|
+|élections|0.018026793602629956|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élections.png "élections")|
+|élus|0.016603565239040417|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élus.png "élus")|
+
+Racines de mots les plus importants dans les réponses :
+
+- vot
+- obligatoir
+- citoyen
+- particip
+- blanc
+- polit
+- élect
+- faut
+- élus
+- compt
+- fair
+- représent
+- faibl
+- candidat
+- part
+- droit
+- franc
+- confianc
+- démocrat
+- pris
+
+### 19 - Que pensez-vous de la situation de l'immigration en France aujourd'hui et de la politique migratoire ? Quelles sont, selon vous, les critères à mettre en place pour définir la politique migratoire ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 259397
+
+Taille moyenne des réponses (caractères) : 240.27
+
+Taille moyenne des réponses (mots) : 40.46
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|immigration|0.04094690759505482|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_immigration.png "immigration")|
+|pays|0.03447113977152414|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_pays.png "pays")|
+|france|0.029902304224460923|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_france.png "france")|
+|faut|0.02517390040237864|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faut.png "faut")|
+|politique|0.024039348310026194|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_politique.png "politique")|
+|accueillir|0.021808026179719796|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_accueillir.png "accueillir")|
+|migrants|0.02107267008046928|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_migrants.png "migrants")|
+|quotas|0.01797663885389308|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_quotas.png "quotas")|
+|accueil|0.016714323859485947|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_accueil.png "accueil")|
+|asile|0.015389298724804285|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_asile.png "asile")|
+
+Racines de mots les plus importants dans les réponses :
+
+- immigr
+- franc
+- pay
+- accueil
+- polit
+- faut
+- migr
+- integr
+- migratoir
+- aid
+- économ
+- droit
+- fair
+- asil
+- besoin
+- situat
+- quot
+- criter
+- problem
+- accept
+
+### 20 - Que peuvent et doivent faire les pouvoirs publics pour répondre aux incivilités ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 241040
+
+Taille moyenne des réponses (caractères) : 115.79
+
+Taille moyenne des réponses (mots) : 18.84
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|sanctionner|0.037347539909807895|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sanctionner.png "sanctionner")|
+|faire|0.026143475830507322|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|appliquer|0.02368944564369204|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_appliquer.png "appliquer")|
+|loi|0.023110603354077813|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_loi.png "loi")|
+|éducation|0.020184637330756375|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|sanctions|0.018519981454694776|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sanctions.png "sanctions")|
+|amendes|0.018268997725583054|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_amendes.png "amendes")|
+|punir|0.015012834130478202|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_punir.png "punir")|
+|lois|0.014309309049419829|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_lois.png "lois")|
+|éduquer|0.013999864882340325|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éduquer.png "éduquer")|
+
+Racines de mots les plus importants dans les réponses :
+
+- sanction
+- fair
+- incivil
+- appliqu
+- éduc
+- amend
+- loi
+- respect
+- polic
+- intérêt
+- traval
+- général
+- justic
+- faut
+- pein
+- exempl
+- lois
+- écol
+- mettr
+- pun
+
+### 21 - Que proposez-vous afin de répondre à ce défi qui va durer ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 235735
+
+Taille moyenne des réponses (caractères) : 174.72
+
+Taille moyenne des réponses (mots) : 29.07
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|pays|0.04768077746976889|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_pays.png "pays")|
+|aider|0.023296882656574674|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_aider.png "aider")|
+|immigration|0.021922986840655048|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_immigration.png "immigration")|
+|migrants|0.017158217696261104|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_migrants.png "migrants")|
+|faut|0.016114113650469594|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faut.png "faut")|
+|politique|0.016040882012442702|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_politique.png "politique")|
+|voir|0.01549003689756003|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_voir.png "voir")|
+|faire|0.015483458263548164|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|développement|0.01512337553495886|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_développement.png "développement")|
+|france|0.01490672326788802|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_france.png "france")|
+
+Racines de mots les plus importants dans les réponses :
+
+- pay
+- aid
+- immigr
+- franc
+- accueil
+- développ
+- migr
+- polit
+- faut
+- integr
+- fair
+- européen
+- économ
+- origin
+- fronti
+- popul
+- droit
+- plac
+- europ
+- mettr
+
+### 22 - Que proposez-vous pour renforcer les principes de la laïcité dans le rapport entre l'Etat et les religions de notre pays ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 250414
+
+Taille moyenne des réponses (caractères) : 193.2
+
+Taille moyenne des réponses (mots) : 32.59
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|loi|0.04333453537487667|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_loi.png "loi")|
+|religions|0.03262893692602248|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_religions.png "religions")|
+|religion|0.030134406587066287|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_religion.png "religion")|
+|laïcité|0.030105638303334924|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_laïcité.png "laïcité")|
+|1905|0.02905205069647162|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_1905.png "1905")|
+|appliquer|0.027261017883050718|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_appliquer.png "appliquer")|
+|faire|0.022007594833643517|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|religieux|0.01928319871709288|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_religieux.png "religieux")|
+|lois|0.01918072603273239|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_lois.png "lois")|
+|respecter|0.018058732514247524|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respecter.png "respecter")|
+
+Racines de mots les plus importants dans les réponses :
+
+- relig
+- religion
+- religi
+- laïcit
+- loi
+- respect
+- franc
+- appliqu
+- fair
+- écol
+- princip
+- 1905
+- public
+- cult
+- sign
+- faut
+- pay
+- etat
+- lois
+- républ
+
+### 23 - Quel pourrait être le rôle de chacun pour faire reculer les incivilités dans la société ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 196499
+
+Taille moyenne des réponses (caractères) : 93.5
+
+Taille moyenne des réponses (mots) : 15.94
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|exemple|0.03197438068233973|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_exemple.png "exemple")|
+|éducation|0.025620607602369172|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|faire|0.025113938006436652|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|enfants|0.02297388586920372|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_enfants.png "enfants")|
+|respect|0.020667404756045307|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+|respecter|0.018070428383535554|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respecter.png "respecter")|
+|montrer|0.017641013073360953|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_montrer.png "montrer")|
+|éduquer|0.015910935140105536|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éduquer.png "éduquer")|
+|dénoncer|0.015598847191987035|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_dénoncer.png "dénoncer")|
+|incivilités|0.015319704336474168|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_incivilités.png "incivilités")|
+
+Racines de mots les plus importants dans les réponses :
+
+- fair
+- incivil
+- respect
+- exempl
+- enfant
+- éduc
+- citoyen
+- parent
+- comport
+- rôl
+- éduqu
+- montr
+- dénonc
+- don
+- interven
+- respons
+- faut
+- pouvoir
+- polic
+- écol
+
+### 24 - Quel rôle nos assemblées, dont le Sénat et le Conseil économique, social et environnemental, doivent-elles jouer pour représenter nos territoires et la société civile ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 214323
+
+Taille moyenne des réponses (caractères) : 148.27
+
+Taille moyenne des réponses (mots) : 24.85
+
+Taille maximum des réponses (mots) : 1717
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|rôle|0.033002300141341166|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_rôle.png "rôle")|
+|sénat|0.03248306672401724|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sénat.png "sénat")|
+|sais|0.029591077059420087|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sais.png "sais")|
+|cese|0.02585230945490176|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_cese.png "cese")|
+|citoyens|0.023627671841417404|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|supprimer|0.022481768547742614|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_supprimer.png "supprimer")|
+|conseil|0.02017485366024986|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_conseil.png "conseil")|
+|économique|0.01568601774681838|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_économique.png "économique")|
+|assemblée|0.015119017403483908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_assemblée.png "assemblée")|
+|assemblées|0.0147891087937499|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_assemblées.png "assemblées")|
+
+Racines de mots les plus importants dans les réponses :
+
+- sénat
+- rôl
+- assembl
+- citoyen
+- représent
+- ces
+- conseil
+- supprim
+- économ
+- territoir
+- social
+- élus
+- pouvoir
+- fair
+- faut
+- national
+- lois
+- polit
+- societ
+- compt
+
+### 25 - Quelles sont les discriminations les plus répandues dont vous êtes témoin ou victime ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 199373
+
+Taille moyenne des réponses (caractères) : 94.29
+
+Taille moyenne des réponses (mots) : 15.51
+
+Taille maximum des réponses (mots) : 1832
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|racisme|0.07930830219791092|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_racisme.png "racisme")|
+|sexisme|0.03687983697425204|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_sexisme.png "sexisme")|
+|discrimination|0.034172446359797035|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_discrimination.png "discrimination")|
+|homophobie|0.0330255041179052|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_homophobie.png "homophobie")|
+|femmes|0.032603946391504955|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_femmes.png "femmes")|
+|discriminations|0.027577544904643054|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_discriminations.png "discriminations")|
+|anti|0.016204437831883255|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_anti.png "anti")|
+|respect|0.01458049357562819|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+|raciales|0.014074343449152586|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_raciales.png "raciales")|
+|femme|0.013998041593802288|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_femme.png "femme")|
+
+Racines de mots les plus importants dans les réponses :
+
+- discrimin
+- racism
+- femm
+- homophob
+- sexism
+- social
+- franc
+- homm
+- handicap
+- anti
+- respect
+- racial
+- blanc
+- vis
+- origin
+- témoin
+- travail
+- couleur
+- jeun
+- victim
+
+### 26 - Quelles sont les incivilités les plus pénibles dans la vie quotidienne et que faudrait-il faire pour lutter contre ces incivilités ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 243582
+
+Taille moyenne des réponses (caractères) : 163.43
+
+Taille moyenne des réponses (mots) : 26.75
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|respect|0.04961078732288744|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+|manque|0.025954419746743486|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_manque.png "manque")|
+|incivilités|0.01824362694205574|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_incivilités.png "incivilités")|
+|insultes|0.01587344813928446|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_insultes.png "insultes")|
+|biens|0.015664689398223103|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_biens.png "biens")|
+|publics|0.015603514012841654|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_publics.png "publics")|
+|violence|0.014919048365580818|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_violence.png "violence")|
+|éducation|0.01478162636455622|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|dégradations|0.014757115639037217|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_dégradations.png "dégradations")|
+|déchets|0.014234008836433587|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_déchets.png "déchets")|
+
+Racines de mots les plus importants dans les réponses :
+
+- respect
+- incivil
+- public
+- manqu
+- dégrad
+- agress
+- violenc
+- fair
+- ru
+- insult
+- sanction
+- rout
+- éduc
+- faut
+- déchet
+- comport
+- vol
+- jet
+- publiqu
+- bien
+
+### 27 - Quelles sont, selon vous, les modalités d'intégration les plus efficaces et les plus justes à mettre en place aujourd'hui dans la société ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 237491
+
+Taille moyenne des réponses (caractères) : 151.67
+
+Taille moyenne des réponses (mots) : 25.1
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|travail|0.04735047566176957|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_travail.png "travail")|
+|langue|0.04407171858855422|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_langue.png "langue")|
+|français|0.03516471204509106|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_français.png "français")|
+|apprentissage|0.030427884493551292|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_apprentissage.png "apprentissage")|
+|éducation|0.028954848044739162|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_éducation.png "éducation")|
+|intégration|0.024086522102524953|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_intégration.png "intégration")|
+|française|0.023143940834334607|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_française.png "française")|
+|apprendre|0.02279951912909503|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_apprendre.png "apprendre")|
+|formation|0.02254197222111761|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_formation.png "formation")|
+|école|0.022127242394395116|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_école.png "école")|
+
+Racines de mots les plus importants dans les réponses :
+
+- franc
+- integr
+- langu
+- travail
+- français
+- pay
+- apprentissag
+- immigr
+- respect
+- format
+- apprendr
+- accueil
+- éduc
+- valeur
+- faut
+- aid
+- fair
+- écol
+- migr
+- droit
+
+### 28 - Quels sont les comportements civiques qu'il faut promouvoir dans notre vie quotidienne ou collective ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 236399
+
+Taille moyenne des réponses (caractères) : 110.42
+
+Taille moyenne des réponses (mots) : 18.33
+
+Taille maximum des réponses (mots) : 5753
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|respect|0.1265637923963278|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_respect.png "respect")|
+|solidarité|0.02658615206220745|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_solidarité.png "solidarité")|
+|politesse|0.02633862707422614|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_politesse.png "politesse")|
+|tolérance|0.025103096688158872|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_tolérance.png "tolérance")|
+|entraide|0.024172255626223667|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_entraide.png "entraide")|
+|environnement|0.016399010139147383|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_environnement.png "environnement")|
+|engagement|0.013290816083323179|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_engagement.png "engagement")|
+|biens|0.012612538784049587|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_biens.png "biens")|
+|lois|0.012491431081609602|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_lois.png "lois")|
+|aide|0.012180485988856559|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_aide.png "aide")|
+
+Racines de mots les plus importants dans les réponses :
+
+- respect
+- politess
+- solidar
+- comport
+- citoyen
+- toler
+- aid
+- associ
+- entraid
+- vi
+- fair
+- public
+- engag
+- environ
+- civiqu
+- faut
+- collect
+- commun
+- regl
+- écol
+
+### 29 - Si oui, à quel type d'associations ou d'organisations ? Et avec quel rôle ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 184380
+
+Taille moyenne des réponses (caractères) : 170.56
+
+Taille moyenne des réponses (mots) : 26.31
+
+Taille maximum des réponses (mots) : 1805
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|associations|0.06279653320827701|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_associations.png "associations")|
+|syndicats|0.057404029624218436|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_syndicats.png "syndicats")|
+|organisations|0.03262148457193477|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_organisations.png "organisations")|
+|syndicales|0.024192680747664723|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_syndicales.png "syndicales")|
+|rôle|0.023994333589481887|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_rôle.png "rôle")|
+|citoyens|0.021722685755653028|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|association|0.018697528081027377|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_association.png "association")|
+|ong|0.016490590495397386|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_ong.png "ong")|
+|professionnelles|0.016367419933227267|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_professionnelles.png "professionnelles")|
+|consommateurs|0.014382630058771908|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_consommateurs.png "consommateurs")|
+
+Racines de mots les plus importants dans les réponses :
+
+- associ
+- syndicat
+- organis
+- citoyen
+- rôl
+- représent
+- syndical
+- social
+- professionnel
+- polit
+- consult
+- pouvoir
+- faut
+- fair
+- intérêt
+- entrepris
+- salari
+- local
+- proposit
+- don
+
+### 30 - Y a-t-il d'autres points sur la démocratie et la citoyenneté sur lesquels vous souhaiteriez vous exprimer ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 182753
+
+Taille moyenne des réponses (caractères) : 474.7
+
+Taille moyenne des réponses (mots) : 78.75
+
+Taille maximum des réponses (mots) : 55831
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Mots les plus importants dans les réponses :
+
+
+|MOT|SCORE_TFIDF|GRAPHE|
+|--|--|--|
+|démocratie|0.017315533819091154|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_démocratie.png "démocratie")|
+|faut|0.015794955640409867|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faut.png "faut")|
+|faire|0.013781148960097914|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_faire.png "faire")|
+|france|0.013760097513475343|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_france.png "france")|
+|citoyens|0.013630612069624477|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_citoyens.png "citoyens")|
+|français|0.013173410435511995|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_français.png "français")|
+|pays|0.013048386897777937|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_pays.png "pays")|
+|élus|0.012402231158529115|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_élus.png "élus")|
+|droit|0.01102320334270824|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_droit.png "droit")|
+|vote|0.009948847677518068|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/DEMOCRATIE_ET_CITOYENNETE_vote.png "vote")|
+
+Racines de mots les plus importants dans les réponses :
+
+- franc
+- citoyen
+- démocrat
+- faut
+- fair
+- polit
+- pay
+- droit
+- vot
+- national
+- pouvoir
+- élus
+- grand
+- part
+- vi
+- social
+- an
+- respect
+- président
+- représent
+
