@@ -189,7 +189,6 @@ class ANALYZER():
 
 
             # Get graph of specific vs global for each word
-
             top_10_links = list()
             for word in top_10_words:
                 if '{}_{}.png'.format(theme_folder, word) not in os.listdir('words'):
@@ -198,6 +197,7 @@ class ANALYZER():
                         top_10_links.append('[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/{}_{}.png "{}")'.format(word, theme_folder, word))
                     else:
                         top_10_links.append('Non trouvé')
+            print()
 
             # Report is now containing score and link top graph analysis
             report.top_10_terms = list(zip(top_10_words, top_10_scores, top_10_links))
@@ -317,16 +317,17 @@ class ANALYZER():
             # And built the difference
             lexical_differences = dict()
             for word, data in top_associated_words.items():
+                try:
+                    if word in global_top_close.keys():
 
-                if word in global_top_close.keys():
+                        gj_score = data[2]
+                        global_score = global_top_close[word]
+                        # print(gj_score)
+                        # print(global_score)
 
-                    gj_score = data[2]
-                    global_score = global_top_close[word]
-                    # print(gj_score)
-                    # print(global_score)
-
-                    lexical_differences[word] = gj_score - global_score
-
+                        lexical_differences[word] = gj_score - global_score
+                except UnboundLocalError:
+                    continue
 
             lexical_differences = sorted(lexical_differences.items(), key=lambda kv: kv[1], reverse=True)
 

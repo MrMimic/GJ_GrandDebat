@@ -39,121 +39,145 @@ Celà ne facilite pas le travail de ré-analyse des données publiques. Une norm
 ## Contact
 
         contact (at) tadadata (dot) fr
-## LA TRANSITION ECOLOGIQUE
+
+## ORGANISATION DE LETAT ET DES SERVICES PUBLICS
 
 ### Carte de participation
 
-![LA_TRANSITION_ECOLOGIQUE](maps/LA_TRANSITION_ECOLOGIQUE.png)
+![ORGANISATION_DE_LETAT_ET_DES_SERVICES_PUBLICS](maps/ORGANISATION_DE_LETAT_ET_DES_SERVICES_PUBLICS.png)
 
-### 1 - Avez-vous pour vos déplacements quotidiens la possibilité de recourir à des solutions de mobilité alternatives à la voiture individuelle comme les transports en commun, le covoiturage, l'auto-partage, le transport à la demande, le vélo, etc. ?
-
+### 1 - Avez-vous déjà utilisé certaines de ces nouvelles formes de services publics ?
 #### Statistiques générales sur les réponses
 
-Nombre de réponses : 435996
-
-Taille moyenne des réponses (caractères) : 15.34
-
-Taille moyenne des réponses (mots) : 2.95
-
-Taille maximum des réponses (mots) : 10
-
-#### Thèmes majoritaires dans la question ouverte :
-
-Mots les plus importants dans les réponses :
-
-
-|MOT|SCORE_TFIDF|GRAPHE|
-|--|--|--|
-Racines de mots les plus importants dans les réponses :
-
-- oui
-- déplac
-- quotidien
-- utilis
-- voitur
-
-### 2 - Diriez-vous que votre vie quotidienne est aujourd'hui touchée par le changement climatique ?
-
-#### Statistiques générales sur les réponses
-
-Nombre de réponses : 443135
+Nombre de réponses : 269796
 
 #### Détail de la réponse fermées
 
-Pourcentage de "oui" : 66.97%
+Pourcentage de "oui" : 27.99%
 
-Pourcentage de "Non" : 33.03%
+Pourcentage de "Non" : 72.01%
 
-### 3 - Et qui doit selon vous se charger de vous proposer ce type de solutions alternatives ?
+### 2 - Comment l'Etat et les collectivités territoriales peuvent-ils s'améliorer pour mieux répondre aux défis de nos territoires les plus en difficulté ?
 
 #### Statistiques générales sur les réponses
 
-Nombre de réponses : 344196
+Nombre de réponses : 191064
 
-Taille moyenne des réponses (caractères) : 80.8
+Taille moyenne des réponses (caractères) : 182.61
 
-Taille moyenne des réponses (mots) : 13.2
+Taille moyenne des réponses (mots) : 29.17
 
-Taille maximum des réponses (mots) : 868
+Taille maximum des réponses (mots) : 2195
 
 #### Thèmes majoritaires dans la question ouverte :
 
-Mots les plus importants dans les réponses :
-
-
-|MOT|SCORE_TFIDF|GRAPHE|
-|--|--|--|
-|région|0.06358763194700856|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/région_LA_TRANSITION_ECOLOGIQUE.png "région")|
-|collectivités|0.05798366356830574|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/collectivités_LA_TRANSITION_ECOLOGIQUE.png "collectivités")|
-|etat|0.045649734410376654|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/etat_LA_TRANSITION_ECOLOGIQUE.png "etat")|
-|commune|0.044062757889441084|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/commune_LA_TRANSITION_ECOLOGIQUE.png "commune")|
-|département|0.04346591607034401|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/département_LA_TRANSITION_ECOLOGIQUE.png "département")|
-|communes|0.040447397552507564|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/communes_LA_TRANSITION_ECOLOGIQUE.png "communes")|
-|locales|0.034504722070271256|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/locales_LA_TRANSITION_ECOLOGIQUE.png "locales")|
-|régions|0.02229919121307835|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/régions_LA_TRANSITION_ECOLOGIQUE.png "régions")|
-|territoriales|0.02134369861864201|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/territoriales_LA_TRANSITION_ECOLOGIQUE.png "territoriales")|
-|mairie|0.020791707427357007|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/mairie_LA_TRANSITION_ECOLOGIQUE.png "mairie")|
-|entreprises|0.020466774812791085|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/entreprises_LA_TRANSITION_ECOLOGIQUE.png "entreprises")|
-|communauté|0.016213286764814795|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/communauté_LA_TRANSITION_ECOLOGIQUE.png "communauté")|
-|ville|0.01565356867746807|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/ville_LA_TRANSITION_ECOLOGIQUE.png "ville")|
-|transports|0.014481169448347115|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/transports_LA_TRANSITION_ECOLOGIQUE.png "transports")|
-|mairies|0.012624060786925505|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/mairies_LA_TRANSITION_ECOLOGIQUE.png "mairies")|
-|départements|0.012270810117942448|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/départements_LA_TRANSITION_ECOLOGIQUE.png "départements")|
-|commun|0.011653870699585046|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/commun_LA_TRANSITION_ECOLOGIQUE.png "commun")|
-|collectivité|0.011534721687994461|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/collectivité_LA_TRANSITION_ECOLOGIQUE.png "collectivité")|
-|intercommunalité|0.011390308001764198|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/intercommunalité_LA_TRANSITION_ECOLOGIQUE.png "intercommunalité")|
-|employeur|0.010167161053990232|[graph](https://raw.githubusercontent.com/MrMimic/GJ_GrandDebat/master/words/employeur_LA_TRANSITION_ECOLOGIQUE.png "employeur")|
 Racines de mots les plus importants dans les réponses :
 
-- commun
-- région
-- collect
-- transport
-- etat
-- local
-- départ
-- entrepris
-- mair
-- vill
-- priv
-- communaut
-- solut
-- territorial
-- public
-- citoyen
-- aid
 - servic
+- territoir
+- public
+- commun
+- administr
 - fair
-- voitur
+- faut
+- collect
+- citoyen
+- local
+- région
+- difficult
+- moyen
+- aid
+- etat
+- développ
+- fonctionnair
+- grand
+- territorial
+- terrain
 
-### 4 - Par rapport à votre mode de chauffage actuel, pensez-vous qu'il existe des solutions alternatives plus écologiques ?
+### 3 - Connaissez-vous le "droit à l'erreur", c'est-à-dire le droit d'affirmer votre bonne foi lorsque vous faites un erreur dans vos déclarations ?
 
 #### Statistiques générales sur les réponses
 
-Nombre de réponses : 420952
+Nombre de réponses : 272339
 
 #### Détail de la réponse fermées
 
-Pourcentage de "oui" : 60.15%
+Pourcentage de "oui" : 79.18%
 
-Pourcentage de "Non" : 39.85%
+Pourcentage de "Non" : 20.82%
+
+### 4 - Estimez-vous avoir accès aux services publics dont vous avez besoin ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 280682
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 68.17%
+
+Pourcentage de "Non" : 31.83%
+
+### 5 - Faut-il donner plus d'autonomie aux fonctionnaires de terrain ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 230363
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 71.87%
+
+Pourcentage de "Non" : 28.13%
+
+### 6 - Faut-il revoir le fonctionnement et la formation de l'administration ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 231673
+
+#### Détail de la réponse fermées
+
+Pourcentage de "oui" : 90.41%
+
+Pourcentage de "Non" : 9.59%
+
+### 7 - Pouvez-vous identifier des règles que l'administration vous a déjà demandé d'appliquer et que vous avez jugées inutiles ou trop complexes ?
+
+#### Statistiques générales sur les réponses
+
+Nombre de réponses : 131957
+
+Taille moyenne des réponses (caractères) : 158.48
+
+Taille moyenne des réponses (mots) : 26.81
+
+Taille maximum des réponses (mots) : 1996
+
+#### Thèmes majoritaires dans la question ouverte :
+
+Racines de mots les plus importants dans les réponses :
+
+- demand
+- administr
+- déclar
+- regl
+- impôt
+- fair
+- dossi
+- complex
+- cart
+- docu
+- perm
+- servic
+- exempl
+- pai
+- faut
+- fiscal
+- an
+- papi
+- démarch
+- ident
+
+### 8 - Quand vous pensez à l'évolution des services publics au cours des dernières années, quels sont ceux qui ont évolué de manière positive ?
+

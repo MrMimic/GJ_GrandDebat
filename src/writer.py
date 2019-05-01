@@ -75,7 +75,7 @@ class MARKDOWN(object):
             line_string = '|{}|'.format(('|').join([str(item) for item in line]))
             string = '{}\n{}'.format(string, line_string)
 
-        string = '{}\n'.format(string)
+        string = '{}\n\n'.format(string)
 
         with open(file_name, 'a') as handler:
             handler.write(string)
